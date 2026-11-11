@@ -1,0 +1,171 @@
+{
+  "fecha": "20260204",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260204-070949.jpg",
+      "fecha_hora": "04/02/2026 07:09:49",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La visibilidad extremadamente baja impide determinar la presencia de EPP o condiciones de seguridad."
+      },
+      "actividad_desarrollada": "No determinable",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Mejorar iluminacion",
+          "Precaucion en movimientos"
+        ]
+      },
+      "etapa_constructiva": "No determinable",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja visibilidad impide identificar cualquier elemento de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260204-105903.jpg",
+      "fecha_hora": "04/02/2026 10:59:03",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La extrema baja visibilidad de la imagen impide identificar la presencia de personal o equipos de seguridad."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "No determinable",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "No determinable",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja nitidez de la imagen no permite identificar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260204-132446.jpg",
+      "fecha_hora": "04/02/2026 13:24:46",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La visibilidad extremadamente baja impide determinar cualquier elemento de seguridad laboral o la presencia de trabajadores."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "No determinable",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "No determinable",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La imagen no permite identificar elementos de accesibilidad universal debido a la baja visibilidad y nitidez."
+      }
+    },
+    {
+      "nombre_imagen": "20260204-140626.jpg",
+      "fecha_hora": "04/02/2026 14:06:26",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La imagen es extremadamente borrosa y de baja nitidez, impidiendo la identificación de cualquier elemento de seguridad laboral o la presencia de trabajadores."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja calidad de la imagen impide la detección de cualquier elemento relacionado con la accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260204-142715.jpg",
+      "fecha_hora": "04/02/2026 14:27:15",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La imagen es extremadamente borrosa y con baja nitidez, impidiendo la identificacion de cualquier detalle de seguridad laboral."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Aumentar iluminacion en el sitio",
+          "Proceder con precaucion debido a la visibilidad reducida"
+        ]
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La imagen no permite identificar elementos relacionados con la accesibilidad universal debido a su baja calidad."
+      }
+    }
+  ]
+}

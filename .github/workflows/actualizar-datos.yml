@@ -1,0 +1,29 @@
+name: Actualizar datos
+
+# Descarga las fuentes cada lunes, regenera los datos y publica los cambios.
+# Si una fuente cambia, su huella SHA-256 cambia y el commit lo deja registrado.
+on:
+  schedule:
+    - cron: "0 12 * * 1"   # lunes 06:00 hora de Costa Rica
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ejecutar pipeline
+        run: python pipeline/ejecutar.py
+      - name: Publicar cambios
+        run: |
+          git config user.name "obraclara-bot"
+          git config user.email "obraclara-bot@users.noreply.github.com"
+          git add datos web/datos PROCEDENCIA.md
+          git diff --cached --quiet || git commit -m "Actualiza datos $(date -u +%F)"
+          git push

@@ -1,0 +1,22 @@
+{
+  "Taras-La Lima": {
+    "nombre": "Taras-La Lima",
+    "descripcion": "Intersección vial en Costa Rica",
+    "lat": 9.868798734157592,
+    "lon": -83.94424806124493,
+    "video_semana": "https://www.youtube.com/embed/6dsqlJWeCe4",
+    "video_monitoreo": "https://www.youtube.com/embed/VkhhPo4U8GY",
+    "tablero": "https://www.obrapublica.info/taras-lima",
+    "pagina_origen": "mapa_cartago.html"
+  },
+  "Puente Circunvalación": {
+    "nombre": "Puente Circunvalación",
+    "descripcion": "Evaluación de riesgos de inundación y monitoreo de construcción",
+    "lat": 9.916023,
+    "lon": -84.067575,
+    "video_semana": "https://youtu.be/zZ6gC6C7W1A",
+    "video_monitoreo": null,
+    "tablero": null,
+    "pagina_origen": "mapa_san_jose.html"
+  }
+}

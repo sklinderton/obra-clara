@@ -1,0 +1,49 @@
+{
+  "proyecto_segun_manifiesto": "dIAra - Colegio de Limoncito (Cieneguita, Limon)",
+  "manifiesto_generado": "2026-04-19T18:28:30.345527",
+  "muestreo": {
+    "metodo": "5 imagenes por dia habil (2 manana 7-12, 3 tarde 12-16, L-V, solo 2026)",
+    "total_imagenes": 385
+  },
+  "primera_fecha": "2026-01-01",
+  "ultima_fecha": "2026-04-17",
+  "dias_con_datos": 77,
+  "dias_habiles_periodo": 77,
+  "dias_habiles_faltantes": [],
+  "estadisticas_publicadas": {
+    "total_imagenes_exitosas": 366,
+    "total_errores": 19,
+    "tasa_exito_pct": 95.1,
+    "total_trabajadores_detectados": 710,
+    "maquinaria_frecuente": {
+      "Andamios metalicos": 193,
+      "Grua torre": 161,
+      "Generador electrico": 49,
+      "Camion mixer": 45,
+      "Retroexcavadora": 42,
+      "Elevador de obra": 40,
+      "Cargador frontal": 27,
+      "Montacargas": 25,
+      "Grua movil": 25,
+      "Mezcladora de concreto": 23
+    },
+    "condiciones_climaticas": {
+      "Nublado": 162,
+      "Despejado": 124,
+      "Parcialmente nublado": 66,
+      "No determinable": 12,
+      "Lluvioso": 1
+    },
+    "etapas_constructivas": {
+      "Estructura de concreto": 255,
+      "No determinable": 33,
+      "Cubierta": 25,
+      "Estructura de concreto, Cubierta": 12,
+      "Estructura de concreto, Cubierta, Mamposteria": 6,
+      "Estructura de concreto, Mamposteria, Cubierta": 4,
+      "Mamposteria": 4,
+      "Movimiento de tierras": 1,
+      "Acabados interiores": 1
+    }
+  }
+}

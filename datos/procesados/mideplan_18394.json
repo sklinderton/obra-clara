@@ -1,0 +1,51 @@
+{
+  "id_proyecto": 18394,
+  "codigo_bpip": "002699",
+  "nombre": "Construcción de los Intercambios Viales en La Lima y Taras, y ampliación y mejoramiento de la sección entre los intercambios, Ruta Nacional N°2, Cartago, MOPT",
+  "ejecutor": "Ministerio de Obras Públicas y Transportes (MOPT)",
+  "sector": "Infraestructura y Transportes",
+  "ubicacion": "San Nicolás, Cartago",
+  "etapa_actual": "En ejecución",
+  "costo_millones_crc": 39335.0,
+  "duracion_estimada": "8.0 años",
+  "anio_inicio": "2016",
+  "anio_fin_previsto": "2024",
+  "avance_fisico_encabezado": 54.4,
+  "avance_fisico_fase": 54.0,
+  "avance_financiero": 55.02,
+  "objetivo": "Mejorar la movilidad de personas y mercancías en la Ruta Nacional N° 2, de la red vial estratégica de alta capacidad mediante los procesos de construcción de obra nueva, así como de ampliación y mejoramiento de la existente, con el fin de contribuir con la operatividad de las intersecciones de La Lima y Taras de Cartago y, de la sección de carretera entre ambas intersecciones para el año 2021",
+  "productos": [
+    "a) Dos intercambios viales construidos: uno en la intersección Taras de la RN 2 y la RN 10 de longitud de 323.10 m y otro en La Lima intersección de la RN 2 y RN 236 de longitud 106.30 m.",
+    "b) Sección de carretera entre ambos intercambios ampliada y mejorada (pasa de 2 a 3 carriles por sentido).",
+    "c) Velocidad operativa promedio aumentada en al menos un 20% respecto de la velocidad actual de 33.57 km/h.",
+    "d) Tiempos de demora disminuidos."
+  ],
+  "fases": [
+    {
+      "fase": "Diseño",
+      "porcentaje": 100.0,
+      "inicio": "2016-10-03",
+      "fin_previsto": "2018-05-07"
+    },
+    {
+      "fase": "Financiamiento",
+      "porcentaje": 100.0,
+      "inicio": "2018-01-02",
+      "fin_previsto": "2020-04-23"
+    },
+    {
+      "fase": "Licitación o contratación",
+      "porcentaje": 100.0,
+      "inicio": "2019-02-04",
+      "fin_previsto": "2020-07-08"
+    },
+    {
+      "fase": "En ejecución",
+      "porcentaje": 54.0,
+      "inicio": "2020-12-02",
+      "fin_previsto": "2025-02-28"
+    }
+  ],
+  "fecha_corte_avance": null,
+  "url": "https://rendircuentas.mideplan.go.cr/proyecto/perfilproyecto/18394"
+}

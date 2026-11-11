@@ -1,0 +1,214 @@
+{
+  "fecha": "20260217",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260217-070429.jpg",
+      "fecha_hora": "17/02/2026 07:04:29",
+      "maquinaria": [
+        "Grua torre",
+        "Montacargas",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No",
+        "observaciones": "Trabajadores en nivel elevado sin barandas perimetrales visibles. Uso de casco y chaleco parcial entre los trabajadores visibles. No se puede determinar el uso de arnés de seguridad."
+      },
+      "actividad_desarrollada": "Trabajos de armado de armadura y encofrado para estructura de concreto.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "Obra en etapa de estructura, no se observan elementos de accesibilidad universal para evaluar."
+      }
+    },
+    {
+      "nombre_imagen": "20260217-115558.jpg",
+      "fecha_hora": "17/02/2026 11:55:58",
+      "maquinaria": [
+        "Grua torre",
+        "Compactador manual",
+        "Andamios metalicos",
+        "Generador electrico"
+      ],
+      "personas_trabajadoras": 5,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La visibilidad de los EPP es limitada debido a la baja nitidez de la imagen. Se observan algunos trabajadores con chalecos de alta visibilidad y cascos."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto y preparación de terreno.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de la estructura, por lo que no se observan elementos de accesibilidad universal implementados."
+      }
+    },
+    {
+      "nombre_imagen": "20260217-121648.jpg",
+      "fecha_hora": "17/02/2026 12:16:48",
+      "maquinaria": [
+        "Grua torre",
+        "Compactador manual"
+      ],
+      "personas_trabajadoras": 6,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "Parcial",
+        "observaciones": "La visibilidad limitada dificulta la confirmación del uso completo de EPP. Se observan estructuras de rebar que podrían servir como barreras temporales en altura, pero no barandas perimetrales completas."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto del edificio, incluyendo columnas, vigas y losas.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de la estructura, por lo que no se observan elementos de accesibilidad universal instalados."
+      }
+    },
+    {
+      "nombre_imagen": "20260217-140051.jpg",
+      "fecha_hora": "17/02/2026 14:00:51",
+      "maquinaria": [
+        "Grua torre",
+        "Camion mixer",
+        "Retroexcavadora",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 5,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La visibilidad de los EPP es limitada debido a la baja calidad de la imagen. Se observan trabajadores en altura sin que se pueda confirmar el uso de arneses o barandas perimetrales adecuadas."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto del edificio, incluyendo encofrado y colocación de armadura.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción (estructura), por lo que no es posible identificar elementos de accesibilidad universal. Estos se implementarán en etapas posteriores."
+      }
+    },
+    {
+      "nombre_imagen": "20260217-154450.jpg",
+      "fecha_hora": "17/02/2026 15:44:50",
+      "maquinaria": [
+        "Grua torre",
+        "Retroexcavadora",
+        "Generador electrico",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 6,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "Se observa uso parcial de EPP (casco, chaleco) en algunos trabajadores. No es posible determinar el uso de arneses o la presencia de barandas perimetrales en las losas elevadas."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto de edificio de múltiples niveles.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Armadura de acero",
+        "Encofrado",
+        "Muros de concreto"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa actual de la obra no permite identificar elementos de accesibilidad universal."
+      }
+    }
+  ]
+}

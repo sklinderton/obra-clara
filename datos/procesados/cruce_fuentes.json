@@ -1,0 +1,55 @@
+[
+  {
+    "obra": "limoncito",
+    "proyectos_revisados": 68,
+    "fuente_campo": "obrapublica.info/limoncito",
+    "metodo": "Búsqueda de 'Limoncito' o 'Cieneguita' en los 68 proyectos del cantón Limón (701)",
+    "candidatos": [
+      {
+        "id": 339,
+        "nombre": "CANALIZACIÓN Y CONTROL DE INUNDACIONES EN EL RÍO LIMONCITO EN LIMÓN - SENARA"
+      }
+    ],
+    "decision": "Sin cruce",
+    "confianza": "—",
+    "justificacion": "El único resultado es la canalización del río Limoncito (SENARA), que es otra obra. La escuela no aparece en MapaInversiones, así que no hay plazo ni monto oficial con qué comparar."
+  },
+  {
+    "obra": "taras-la-lima",
+    "proyectos_revisados": 33,
+    "fuente_campo": "obrapublica.info/taras-lima",
+    "metodo": "Búsqueda de 'Taras' o 'La Lima' en los 33 proyectos del cantón Cartago (301) y verificación de ubicación",
+    "candidatos": [
+      {
+        "id": 18394,
+        "nombre": "CONSTRUCCIÓN DE LOS INTERCAMBIOS VIALES EN LA LIMA Y TARAS, Y AMPLIACIÓN Y MEJORAMIENTO DE LA SECCIÓN ENTRE LOS INTERCAMBIOS, RUTA NACIONAL N°2, CARTAGO, MOPT"
+      },
+      {
+        "id": 22915,
+        "nombre": "CONSTRUCCIÓN DEL EJE CICLISTA SECTOR TARAS - LA LIMA, SAN NICOLÁS, CARTAGO."
+      }
+    ],
+    "decision": "Cruce con 18394",
+    "confianza": "Alta",
+    "justificacion": "El nombre coincide (intercambios de La Lima y Taras), el distrito es San Nicolás de Cartago y las coordenadas de dIAra corresponden a La Lima, Taras, San Nicolás (verificado con OpenStreetMap). Se descarta 22915 (eje ciclista, otra obra)."
+  },
+  {
+    "obra": "puente-circunvalacion",
+    "proyectos_revisados": 164,
+    "fuente_campo": "obrapublica.info/map (San José)",
+    "metodo": "Búsqueda de 'Circunvalación' en los 164 proyectos del cantón San José (101)",
+    "candidatos": [
+      {
+        "id": 23508,
+        "nombre": "CONSTRUCCIÓN DE PASO A DESNIVEL VEHICULAR Y PUENTE PEATONAL SOBRE LA RUTA NACIONAL NO. 39 (CIRCUNVALACIÓN), ENTRE HATILLO 7 Y HATILLO 8, POR PARTE DEL CONAVI"
+      },
+      {
+        "id": 1317,
+        "nombre": "ESTUDIOS, DISEÑOS Y CONSTRUCCIÓN DE LA RUTA NACIONAL 39 (CIRCUNVALACIÓN NORTE), SECCIÓN URUCA (RUTA NACIONAL 108)-CALLE BLANCOS (ENT. RUTA NACIONAL Nº 109)"
+      }
+    ],
+    "decision": "Sin cruce",
+    "confianza": "Baja",
+    "justificacion": "Hay dos candidatos sobre la Ruta 39, pero la ficha de dIAra solo dice 'Puente Circunvalación', sus coordenadas son las mismas que usa el mapa por defecto y no publica datos. No se asume el cruce."
+  }
+]

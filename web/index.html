@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ObraClara</title>
+  <meta name="description" content="¿Cómo va la obra? Avance de obras públicas de Costa Rica explicado con evidencia verificable, a partir de dIAra (CGR) y MapaInversiones (MIDEPLAN).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23256abf'/%3E%3Cpath d='M7 23h18M10 23V13l6-4 6 4v10' stroke='white' stroke-width='2.5' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="barra">
+    <a class="marca" href="#/" aria-label="ObraClara, inicio">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--acento)"/><path d="M7 23h18M10 23V13l6-4 6 4v10" stroke="#fff" stroke-width="2.5" fill="none" stroke-linejoin="round"/></svg>
+      <span>ObraClara</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#/">Obras</a>
+      <a href="#/fuentes">Fuentes<span class="solo-ancho"> y método</span></a>
+      <button type="button" id="btn-texto" class="btn-texto" aria-pressed="false" title="Agrandar el texto">A<span aria-hidden="true">+</span><span class="sr">Texto más grande</span></button>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <p class="cargando" role="status">Cargando datos…</p>
+  </main>
+
+  <footer class="pie">
+    <p>Prototipo académico del curso Visualización de Datos, Universidad Lead, 2026. Equipo: Jason Barrantes, Deykel Bernard y Nicole Camacho.</p>
+    <p>Datos públicos de <a href="https://www.obrapublica.info/" rel="noopener">obrapublica.info</a> (CGR, proyecto dIAra) y <a href="https://rendircuentas.mideplan.go.cr/" rel="noopener">MapaInversiones</a> (MIDEPLAN). No es un sitio oficial.</p>
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script src="graficos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

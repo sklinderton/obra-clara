@@ -1,0 +1,203 @@
+{
+  "fecha": "20260324",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260324-070041.jpg",
+      "fecha_hora": "24/03/2026 07:00:41",
+      "maquinaria": [
+        "Grua movil",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La baja calidad de la imagen y las sombras dificultan la identificación de EPP y la continuidad de las barandas perimetrales."
+      },
+      "actividad_desarrollada": "Construcción de edificio con estructura de concreto y cubierta metálica, con materiales de mampostería en sitio.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Estructura de concreto",
+        "Estructura metalica de techo",
+        "Cubierta",
+        "Muros"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "No es posible determinar elementos de accesibilidad universal en esta etapa de construcción y desde la perspectiva actual de la imagen."
+      }
+    },
+    {
+      "nombre_imagen": "20260324-115218.jpg",
+      "fecha_hora": "24/03/2026 11:52:18",
+      "maquinaria": [
+        "Grua torre",
+        "Montacargas"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "No se observan trabajadores en la imagen. La visibilidad es regular, dificultando la identificación de detalles de seguridad en los niveles superiores."
+      },
+      "actividad_desarrollada": "Construcción de edificio de múltiples niveles, con avance en la estructura, mampostería y cubierta.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Muros de mampostería",
+        "Estructura metálica de cubierta"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "No es posible determinar elementos de accesibilidad universal en esta etapa de la construcción."
+      }
+    },
+    {
+      "nombre_imagen": "20260324-121310.jpg",
+      "fecha_hora": "24/03/2026 12:13:10",
+      "maquinaria": [
+        "Grua torre",
+        "Grua movil"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "No se observan trabajadores para evaluar el uso de EPP. La visibilidad de barandas perimetrales es limitada debido a la calidad de la imagen."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto y montaje de cubierta metálica. Acopio de materiales para mampostería.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Estructura de concreto",
+        "Estructura metálica",
+        "Muros de mampostería"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa actual de la obra no permite identificar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260324-135737.jpg",
+      "fecha_hora": "24/03/2026 13:57:37",
+      "maquinaria": [
+        "Grua torre",
+        "Cargador frontal",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "Si",
+        "uso_chaleco": "Si",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "Parcial",
+        "observaciones": "Dos trabajadores visibles usan casco y chaleco. Se observan barandas temporales en algunos niveles elevados. La visibilidad limitada impide evaluar completamente el uso de EPP en altura."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto, instalación de cubierta y preparación para mampostería.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto, Cubierta, Mamposteria",
+      "elementos_constructivos": [
+        "Columnas",
+        "Vigas",
+        "Losas",
+        "Cerchas metálicas",
+        "Bloques de concreto"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa de construcción actual no permite evaluar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260324-154153.jpg",
+      "fecha_hora": "24/03/2026 15:41:53",
+      "maquinaria": [
+        "Grua torre",
+        "Montacargas"
+      ],
+      "personas_trabajadoras": 4,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "Parcial",
+        "observaciones": "Visibilidad limitada dificulta la confirmación de uso de EPP completo. Se observan algunas barandas temporales y redes de seguridad en niveles elevados."
+      },
+      "actividad_desarrollada": "Construcción general de edificio, incluyendo mampostería y montaje de estructura de cubierta.",
+      "condiciones_climaticas": {
+        "clima_general": "Parcialmente nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Mamposteria",
+      "elementos_constructivos": [
+        "Estructura de concreto",
+        "Muros de bloques",
+        "Estructura metálica de cubierta",
+        "Redes de seguridad"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa de construcción actual no permite identificar elementos específicos de accesibilidad universal."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa de Obra</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        #map-container {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        #info-box {
+            position: absolute;
+            top: 70px;
+            right: 10px;
+            width: 200px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 1000;
+            font-size: 12px;
+            cursor: move;
+            border: 2px solid red;
+        }
+        #info-box h3 {
+            margin-top: 0;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+        #info-box p {
+            margin: 3px 0 5px 0;
+            font-size: 11px;
+        }
+        .info-section {
+            margin-bottom: 8px;
+        }
+        .info-title {
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3px;
+        }
+        .info-icon {
+    margin-left: 10px;
+    background-color: #f40808;
+    color: #fcf3f3;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    cursor: help;
+    position: relative;
+}
+
+.info-icon:hover .tooltip {
+    display: block;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    bottom: 30px;
+    right: -10px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    font-size: 12px;
+    color: #333;
+}
+
+.robot-icon {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+}
+        .red-title {
+            color: #FF0000;
+        }
+        .blue-title {
+            color: #0000FF;
+        }
+        .green-title {
+            color: #006400;
+        }
+        .purple-title {
+            color: #800080;
+        }
+        .tablero-link, .csv-analyzer-link {
+            display: block;
+            background-color: #006400;
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 12px;
+            text-align: center;
+            width: 100%;
+            border: none;
+            cursor: pointer;
+        }
+        .csv-analyzer-link {
+            background-color: #800080;
+        }
+        .video-container {
+            text-align: center;
+            margin-top: 3px;
+        }
+        /* Botón de cierre */
+        .close-button {
+            position: absolute;
+            top: 5px;
+            right: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #666;
+            cursor: pointer;
+            z-index: 1001;
+        }
+        .close-button:hover {
+            color: #000;
+        }
+        /* Estilos para modales */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 1002;
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+            max-height: 80%;
+            overflow: auto;
+            position: relative;
+        }
+        .modal-iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        /* Estilos para el chatbot */
+        .chat-container {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            height: 350px;
+            padding: 10px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        .message {
+            padding: 8px 12px;
+            margin-bottom: 8px;
+            max-width: 70%;
+            border-radius: 18px;
+        }
+        .user-message {
+            background-color: #007bff;
+            color: white;
+            margin-left: auto;
+        }
+        .system-message {
+            background-color: #e9e9e9;
+        }
+        .assistant-message {
+            background-color: #28a745;
+            color: white;
+        }
+        .input-area {
+            display: flex;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px 0 0 4px;
+        }
+        #send-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        #send-button:hover {
+            background-color: #0069d9;
+        }
+        #send-button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Estilos para el formulario de suscripción */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .form-group input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .radio-group {
+            margin-top: 5px;
+        }
+
+        .radio-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+
+        .form-actions {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .subscribe-link {
+            display: inline-block;
+            background-color: #FF6600;
+            color: white;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+        }
+
+/* Estilos para los botones de sugerencia */
+.suggestion-container {
+    margin-top: 15px;
+}
+.suggestion-title {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #333;
+}
+.suggestion-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.suggestion-button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+.suggestion-button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para el contenedor de iframe */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.iframe-container .modal-iframe {
+    width: 100%;
+    border: none;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+    /* Ajustes para modales en dispositivos móviles */
+    .modal-content {
+        width: 95%;
+        max-height: 90%;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch; /* Para mejorar el desplazamiento en iOS */
+    }
+
+    .modal-iframe {
+        height: 400px; /* Altura reducida para mejor visualización */
+    }
+
+    /* Hacer el botón de cierre más grande para facilitar tocar */
+    .close-button {
+        top: 10px;
+        right: 10px;
+        font-size: 24px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 50%;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+
+    /* Ajustes para el input y botones en el chat */
+    .input-area {
+        flex-wrap: wrap;
+    }
+
+    .input-area .info-icon {
+        margin-top: 5px;
+    }
+
+    #user-input {
+        flex: 1 1 100%;
+        margin-bottom: 5px;
+        border-radius: 4px;
+    }
+
+    #send-button {
+        flex: 1;
+        border-radius: 4px;
+    }
+
+    .suggestion-button {
+        padding: 10px;
+        font-size: 13px;
+    }
+}
+
+/* Para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 10px;
+    }
+
+    .chat-container {
+        height: 300px;
+    }
+
+    .message {
+        max-width: 85%;
+        padding: 6px 10px;
+    }
+
+    .suggestion-button {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .modal-iframe {
+        height: 300px;
+    }
+}
+</style>
+
+</head>
+<body>
+    <div id="map-container">
+        <div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe srcdoc="&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+    
+        &lt;script&gt;
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        &lt;/script&gt;
+    
+    &lt;style&gt;html, body {width: 100%;height: 100%;margin: 0;padding: 0;}&lt;/style&gt;
+    &lt;style&gt;#map {position:absolute;top:0;bottom:0;right:0;left:0;}&lt;/style&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://code.jquery.com/jquery-3.7.1.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js&quot;&gt;&lt;/script&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css&quot;/&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css&quot;/&gt;
+    
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
+            &lt;style&gt;
+                #map_b6cc50aa49d9ab1d56c6d9f7916517e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            &lt;/style&gt;
+        
+&lt;/head&gt;
+&lt;body&gt;
+    
+    
+        &lt;script&gt;
+        window.obraData = {
+            id: 1,
+            nombre: &quot;Taras-La Lima&quot;,
+            descripcion: &quot;Intersección vial en Costa Rica&quot;,
+            latitud: 9.868798734157592,
+            longitud: -83.94424806124493,
+            timelapse: &quot;https://www.youtube.com/embed/6dsqlJWeCe4&quot;,
+            imagenes: &quot;https://www.youtube.com/embed/VkhhPo4U8GY&quot;,
+            tablero: &quot;https://www.obrapublica.info/taras-lima&quot;
+        };
+        &lt;/script&gt;
+        
+    
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_b6cc50aa49d9ab1d56c6d9f7916517e7&quot; &gt;&lt;/div&gt;
+        
+&lt;/body&gt;
+&lt;script&gt;
+    
+    
+            var map_b6cc50aa49d9ab1d56c6d9f7916517e7 = L.map(
+                &quot;map_b6cc50aa49d9ab1d56c6d9f7916517e7&quot;,
+                {
+                    center: [9.868798734157592, -83.94424806124493],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  &quot;zoom&quot;: 16,
+  &quot;zoomControl&quot;: true,
+  &quot;preferCanvas&quot;: false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7dab56f28f41f08ad81e3763cee9b0b = L.tileLayer(
+                &quot;https://mt1.google.com/vt/lyrs=s\u0026x={x}\u0026y={y}\u0026z={z}&quot;,
+                {
+  &quot;minZoom&quot;: 0,
+  &quot;maxZoom&quot;: 18,
+  &quot;maxNativeZoom&quot;: 18,
+  &quot;noWrap&quot;: false,
+  &quot;attribution&quot;: &quot;Google Satellite&quot;,
+  &quot;subdomains&quot;: &quot;abc&quot;,
+  &quot;detectRetina&quot;: false,
+  &quot;tms&quot;: false,
+  &quot;opacity&quot;: 1,
+}
+
+            );
+        
+    
+            tile_layer_b7dab56f28f41f08ad81e3763cee9b0b.addTo(map_b6cc50aa49d9ab1d56c6d9f7916517e7);
+        
+    
+            var marker_40eb4c0ed7999a360137fe12210d1da8 = L.marker(
+                [9.868798734157592, -83.94424806124493],
+                {
+}
+            ).addTo(map_b6cc50aa49d9ab1d56c6d9f7916517e7);
+        
+    
+            var icon_a9ba3a664d1b551de9f9fa54ee4dda8b = L.AwesomeMarkers.icon(
+                {
+  &quot;markerColor&quot;: &quot;red&quot;,
+  &quot;iconColor&quot;: &quot;white&quot;,
+  &quot;icon&quot;: &quot;info-sign&quot;,
+  &quot;prefix&quot;: &quot;glyphicon&quot;,
+  &quot;extraClasses&quot;: &quot;fa-rotate-0&quot;,
+}
+            );
+            marker_40eb4c0ed7999a360137fe12210d1da8.setIcon(icon_a9ba3a664d1b551de9f9fa54ee4dda8b);
+        
+&lt;/script&gt;
+&lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
+    </div>
+
+    <!-- Modal para el tablero -->
+    <div id="tablero-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="tablero-close">×</span>
+            <h3 id="tablero-title">Tablero de la Obra</h3>
+            <iframe id="tablero-iframe" class="modal-iframe" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Modal para el analizador CSV -->
+<div id="csv-analyzer-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="csv-analyzer-close">×</span>
+        <h3>Chatea con tu obra</h3>
+
+        <div class="chat-container" id="chat-container"></div>
+
+        <div class="input-area">
+            <input type="text"
+                   id="user-input"
+                   placeholder="Haz una pregunta sobre los datos...si no sabés que preguntar usa las sugerencias, los resultados son detecciones en las imágenes">
+            <button id="send-button">Enviar</button>
+            <div class="info-icon">i
+                <div class="tooltip">
+                    Este es un chatbot que analiza la información de detección de equipo y personas de la obra que te interesa. Puedes hacer preguntas cómo la maquinaria más detectada o cuándo se detectaron más personas. Todavía lo estamos entrenando <span class="robot-icon">🤖</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botones de sugerencia de preguntas -->
+        <div class="suggestion-container">
+            <h4 class="suggestion-title">Sugerencias de preguntas:</h4>
+            <div class="suggestion-buttons">
+                <button class="suggestion-button" onclick="document.getElementById('user-input').value = '¿Qué tipo de maquinaria se detectó en el proyecto?'; document.getElementById('user-input').focus();">
+                    ¿Qué tipo de maquinaria se detectó en el proyecto?
+                </button>
+                <button class="suggestion-button" onclick="document.getElementById('user-input').value = '¿Cuál día y mes hubo más detección de personas?'; document.getElementById('user-input').focus();">
+                    ¿Cuál día y mes hubo más detección de personas?
+                </button>
+                <button class="suggestion-button" onclick="document.getElementById('user-input').value = '¿Cuál día hubo menos detecciones de equipo?'; document.getElementById('user-input').focus();">
+                    ¿Cuál día hubo menos detecciones de equipo?
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal para suscripción -->
+<div id="subscription-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" id="subscription-close">×</span>
+        <h3>Inscripción Monitoreo dIAra</h3>
+
+        <form id="subscription-form">
+            <p>El presente formulario es para realizar el registro de la persona usuaria que requiere la remisión de información vía whatsapp.</p>
+            <p><small>Puede darse de baja en cualquier momento, mediante un correo electrónico a diara@cgr.go.cr</small></p>
+
+            <div class="form-group">
+                <label for="phone">¿Cuál sería su número de teléfono al que enviaremos la información por medio de whatsapp?</label>
+                <div style="display: flex; gap: 10px;">
+                    <input type="text" id="country-code" name="country-code" placeholder="Código país (ej: +506)" style="width: 30%;" required>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="Número de teléfono" style="width: 70%;" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Con el envío de este formulario, acepta que la Contraloría General de la República de Costa Rica le remita periódicamente por medio de whatsapp información referente al proyecto de obra.</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="accept" value="Si" required> Sí
+                    </label>
+                    <label>
+                        <input type="radio" name="accept" value="No"> No
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>¿Cuál es su perfil de usuario? (opcional)</label>
+                <div class="radio-group">
+                    <label>
+                        <input type="radio" name="profile" value="Estudiante"> Estudiante
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" value="Ciudadano"> Ciudadano(a)
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" value="Periodista"> Periodista
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" value="Funcionario"> Funcionario(a) público
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" value="SectorPrivado"> Sector privado
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="subscribe-link">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+    <script>
+        // Función global para mostrar el tablero
+        function mostrarTablero(url) {
+            console.log("Mostrando tablero:", url);
+            var modal = document.getElementById('tablero-modal');
+            var iframe = document.getElementById('tablero-iframe');
+
+            if (modal && iframe) {
+                iframe.src = url;
+                modal.style.display = 'flex';
+            } else {
+                console.error("No se encontraron elementos del modal");
+            }
+        }
+
+        // Función para mostrar el analizador CSV
+        function mostrarAnalizadorCSV() {
+            console.log("Mostrando analizador CSV");
+            var modal = document.getElementById('csv-analyzer-modal');
+
+            if (modal) {
+                modal.style.display = 'flex';
+                // Inicializar chatbot si no se ha hecho
+                initChatbot();
+            } else {
+                console.error("No se encontró el modal del analizador CSV");
+            }
+        }
+
+        // Función para mostrar el formulario de suscripción
+        function mostrarSuscripcion() {
+            console.log("Mostrando formulario de suscripción");
+            var modal = document.getElementById('subscription-modal');
+
+            if (modal) {
+                modal.style.display = 'flex';
+            } else {
+                console.error("No se encontró el modal de suscripción");
+            }
+        }
+
+        let currentFile = null;
+        let isLoading = false;
+        let chatbotInitialized = false;
+
+        // Función para inicializar el chatbot
+        function initChatbot() {
+            if (chatbotInitialized) return;
+
+            // Buscar CSV en el servidor
+            fetchAvailableCSV();
+
+            // Configurar eventos
+            document.getElementById('user-input').addEventListener('keypress', function(event) {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+
+            document.getElementById('send-button').addEventListener('click', sendMessage);
+
+            chatbotInitialized = true;
+        }
+
+        // Función para buscar archivos CSV disponibles
+        async function fetchAvailableCSV() {
+            try {
+                const response = await fetch('/list-csv');
+                const data = await response.json();
+
+                if (response.ok && data.files && data.files.length > 0) {
+                    currentFile = data.files[0]; // Usar el primer archivo
+                    addMessage(`CSV disponible: ${currentFile}`, 'system');
+
+                    // Habilitar la entrada de usuario
+                    document.getElementById('user-input').disabled = false;
+                    document.getElementById('send-button').disabled = false;
+                } else {
+                    addMessage("No hay archivos CSV disponibles para analizar", 'system');
+                }
+            } catch (error) {
+                addMessage(`Error al buscar archivos CSV: ${error}`, 'system');
+            }
+        }
+
+        function addMessage(content, type) {
+            const chatContainer = document.getElementById('chat-container');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}-message`;
+
+            // Si es un mensaje del asistente, permitir HTML para las negritas
+            if (type === 'assistant') {
+                messageDiv.innerHTML = formatResponse(content);
+            } else {
+                messageDiv.textContent = content;
+            }
+
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function formatResponse(text) {
+            // Reemplazar texto entre asteriscos con negrita
+            return text.replace(/\*([^*]+)\*/g, '<strong>$1</strong>');
+        }
+
+        async function sendMessage() {
+            if (isLoading) return;
+
+            const userInput = document.getElementById('user-input');
+            const sendButton = document.getElementById('send-button');
+            const question = userInput.value.trim();
+
+            if (!question || !currentFile) return;
+
+            addMessage(question, 'user');
+            userInput.value = '';
+
+            // Mostrar indicador de carga
+            isLoading = true;
+            sendButton.disabled = true;
+            const loadingMessage = document.createElement('div');
+            loadingMessage.className = 'message system-message loading';
+            loadingMessage.textContent = 'Analizando datos...';
+            document.getElementById('chat-container').appendChild(loadingMessage);
+
+            try {
+                // Imprimir en consola para depuración
+                console.log("Enviando:", JSON.stringify({
+                    question: question,
+                    filename: currentFile
+                }));
+
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        filename: currentFile
+                    })
+                });
+
+                console.log("Código de estado:", response.status);
+
+                let data;
+                const responseText = await response.text();
+                console.log("Respuesta texto:", responseText);
+
+                try {
+                    data = JSON.parse(responseText);
+                } catch (e) {
+                    console.error("Error al parsear JSON:", e);
+                    throw new Error(`Error al parsear respuesta: ${responseText}`);
+                }
+
+                // Eliminar indicador de carga
+                loadingMessage.remove();
+
+                if (response.ok) {
+                    // Procesar la respuesta para eliminar razonamiento y formatear texto en negrita
+                    if (data.response) {
+                        let processedResponse = data.response;
+
+                        // Formatear texto entre asteriscos como negrita
+                        addMessage(formatResponse(processedResponse), 'assistant');
+                    } else {
+                        addMessage("Respuesta vacía del servidor", 'system');
+                    }
+                } else {
+                    addMessage(`Error: ${data.error || "Error desconocido"}`, 'system');
+                }
+            } catch (error) {
+                console.error("Error completo:", error);
+                loadingMessage.remove();
+                addMessage(`Error al procesar la pregunta: ${error.message}`, 'system');
+            } finally {
+                isLoading = false;
+                sendButton.disabled = false;
+            }
+        }
+
+        // Configurar cierre de los modales
+        document.getElementById('tablero-close').addEventListener('click', function() {
+            var modal = document.getElementById('tablero-modal');
+            var iframe = document.getElementById('tablero-iframe');
+
+            modal.style.display = 'none';
+            setTimeout(function() {
+                iframe.src = '';
+            }, 300);
+        });
+
+        document.getElementById('csv-analyzer-close').addEventListener('click', function() {
+            document.getElementById('csv-analyzer-modal').style.display = 'none';
+        });
+
+        document.getElementById('subscription-close').addEventListener('click', function() {
+            document.getElementById('subscription-modal').style.display = 'none';
+        });
+
+        // Manejar el envío del formulario de suscripción
+document.getElementById('subscription-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const countryCode = document.getElementById('country-code').value.trim();
+    const phoneNumber = document.getElementById('phone-number').value.trim();
+    const acceptValue = document.querySelector('input[name="accept"]:checked')?.value;
+    const profileInput = document.querySelector('input[name="profile"]:checked');
+    const profileValue = profileInput ? profileInput.value : "No especificado";
+
+    if (!countryCode || !phoneNumber || !acceptValue) {
+        alert('Por favor complete los campos obligatorios (código de país, número de teléfono y aceptación de términos).');
+        return;
+    }
+
+    // Combinar el código de país y el número
+    const fullPhone = `${countryCode} ${phoneNumber}`;
+
+    const formData = {
+        phone: fullPhone,
+        accept: acceptValue,
+        profile: profileValue
+    };
+
+    try {
+        const response = await fetch('/subscribe', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+            alert('Gracias, este es un demo por el momento no estamos suscribiendo...ahorita estaremos con todo.');
+            document.getElementById('subscription-modal').style.display = 'none';
+            document.getElementById('subscription-form').reset();
+        } else {
+            alert('Error: ' + (result.error || 'No se pudo completar la suscripción'));
+        }
+    } catch (error) {
+        console.error('Error al enviar la suscripción:', error);
+        alert('Error al procesar la suscripción. Por favor, intenta nuevamente.');
+    }
+});
+        // Cerrar modales al hacer clic fuera
+        window.addEventListener('click', function(e) {
+            if (e.target === document.getElementById('tablero-modal')) {
+                document.getElementById('tablero-close').click();
+            }
+            if (e.target === document.getElementById('csv-analyzer-modal')) {
+                document.getElementById('csv-analyzer-close').click();
+            }
+            if (e.target === document.getElementById('subscription-modal')) {
+                document.getElementById('subscription-close').click();
+            }
+        });
+
+        window.addEventListener('load', function() {
+            // Esperar a que el mapa se cargue completamente
+            setTimeout(function() {
+                try {
+                    console.log("Inicializando información de obra");
+
+                    // Obtener datos de la obra
+                    var obra = {
+                        nombre: "Taras-La Lima",
+                        descripcion: "Construcción de puente y mejoras",
+                        timelapse: "https://youtu.be/6dsqlJWeCe4",
+                        imagenes: "https://www.youtube.com/embed/gg9YOBVbh-I",
+                        tablero: "http://www.obrapublica.info/taras-lima"
+                    };
+
+                    // Usar los datos proporcionados por el backend si están disponibles
+                    
+                    obra = {
+                        nombre: "Taras-La Lima",
+                        descripcion: "Intersección vial en Costa Rica",
+                        timelapse: "https://www.youtube.com/embed/6dsqlJWeCe4",
+                        imagenes: "https://www.youtube.com/embed/VkhhPo4U8GY",
+                        tablero: "https://www.obrapublica.info/taras-lima"
+                    };
+                    
+
+                    // Crear el info-box
+                    var infoBox = document.createElement('div');
+                    infoBox.id = 'info-box';
+                    infoBox.innerHTML = `
+                        <span class="close-button" id="info-close">×</span>
+                        <h3>${obra.nombre}</h3>
+                        <p>${obra.descripcion}</p>
+
+                        <div class="info-section">
+                            <div class="info-title red-title">¿Que pasó la semana pasada?</div>
+                            <div class="video-container">
+                                 <iframe
+        width="180"
+        height="100"
+        src="${obra.timelapse}"
+        frameborder="0"
+        allowfullscreen="true"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+    </iframe>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <div class="info-title blue-title">Nuestro monitoreo</div>
+                            <div class="video-container">
+                                <iframe width="180" height="100" src="${obra.imagenes}" frameborder="0" allowfullscreen="true"
+        webkitallowfullscreen="true"
+        mozallowfullscreen="true"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <div class="info-title green-title">Tablero</div>
+                            <div class="video-container">
+                                <button class="tablero-link" onclick="mostrarTablero('${obra.tablero}')">Ver tablero</button>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <div class="info-title purple-title">Chatea con tu obra</div>
+                            <div class="video-container">
+                                <button class="csv-analyzer-link" onclick="mostrarAnalizadorCSV()">¡Chatea ya!</button>
+                            </div>
+                        </div>
+
+                        <div class="info-section">
+                            <div class="info-title" style="color: #FF6600;">Quiero estar al día</div>
+                            <div class="video-container">
+                                <button class="tablero-link" style="background-color: #FF6600;" onclick="mostrarSuscripcion()">Suscribirse</button>
+                            </div>
+                        </div>
+                    `;
+
+                    // Posicionar junto al marcador
+                    var markers = document.querySelectorAll('.leaflet-marker-icon');
+                    if (markers && markers.length > 0) {
+                        var marker = markers[0];
+                        var rect = marker.getBoundingClientRect();
+                        infoBox.style.top = rect.top + 'px';
+                        infoBox.style.left = (rect.right + 20) + 'px';
+                    }
+
+                    // Agregar al DOM
+                    document.body.appendChild(infoBox);
+
+                    // Cerrar la caja
+                    document.getElementById('info-close').addEventListener('click', function() {
+                        infoBox.style.display = 'none';
+                    });
+
+                    // Arrastrar la caja
+                    var isDragging = false;
+                    var offsetX, offsetY;
+
+                    infoBox.addEventListener('mousedown', function(e) {
+                        if (e.target.tagName.toLowerCase() === 'iframe' ||
+                            e.target.tagName.toLowerCase() === 'button' ||
+                            e.target.classList.contains('close-button')) return;
+
+                        isDragging = true;
+                        offsetX = e.clientX - infoBox.getBoundingClientRect().left;
+                        offsetY = e.clientY - infoBox.getBoundingClientRect().top;
+                        e.preventDefault();
+                    });
+
+                    document.addEventListener('mousemove', function(e) {
+                        if (!isDragging) return;
+                        infoBox.style.left = (e.clientX - offsetX) + 'px';
+                        infoBox.style.top = (e.clientY - offsetY) + 'px';
+                    });
+
+                    document.addEventListener('mouseup', function() {
+                        isDragging = false;
+                    });
+
+                } catch (e) {
+                    console.error("Error al crear el infoBox:", e);
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

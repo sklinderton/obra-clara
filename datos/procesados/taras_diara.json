@@ -1,0 +1,115 @@
+{
+  "serie": [
+    {
+      "fecha": "2024-06-25",
+      "personas": 2.85,
+      "tractores": 4.54,
+      "aplanadoras": 1.77,
+      "imagenes": 310
+    },
+    {
+      "fecha": "2024-06-28",
+      "personas": 4.13,
+      "tractores": 4.59,
+      "aplanadoras": 2.37,
+      "imagenes": 310
+    },
+    {
+      "fecha": "2024-06-29",
+      "personas": 2.47,
+      "tractores": 4.49,
+      "aplanadoras": 1.78,
+      "imagenes": 312
+    },
+    {
+      "fecha": "2024-06-30",
+      "personas": 0.94,
+      "tractores": 2.91,
+      "aplanadoras": 0.34,
+      "imagenes": 305
+    },
+    {
+      "fecha": "2024-07-01",
+      "personas": 2.35,
+      "tractores": 4.18,
+      "aplanadoras": 1.55,
+      "imagenes": 314
+    }
+  ],
+  "unidad": "Promedio de detecciones por imagen en el día",
+  "estadisticas_publicadas": {
+    "promedios": {
+      "personas": 1.74,
+      "tractores": 3.46,
+      "aplanadoras": 0.99
+    },
+    "maximos": {
+      "personas": {
+        "date": "2024-06-26",
+        "valor": 4.24
+      },
+      "tractores": {
+        "date": "2024-06-22",
+        "valor": 5.89
+      },
+      "aplanadoras": {
+        "date": "2024-06-28",
+        "valor": 2.37
+      }
+    },
+    "minimos": {
+      "personas": {
+        "date": "2024-06-16",
+        "valor": 0.56
+      },
+      "tractores": {
+        "date": "2024-06-09",
+        "valor": 1.09
+      },
+      "aplanadoras": {
+        "date": "2024-06-09",
+        "valor": 0
+      }
+    },
+    "diasSinDeteccion": {
+      "personas": 0,
+      "tractores": 0,
+      "aplanadoras": 1
+    }
+  },
+  "contraste": {
+    "personas": {
+      "promedio_publicado": 1.74,
+      "promedio_de_la_serie": 2.55,
+      "maximo_publicado": {
+        "date": "2024-06-26",
+        "valor": 4.24
+      },
+      "maximo_de_la_serie": 4.13
+    },
+    "tractores": {
+      "promedio_publicado": 3.46,
+      "promedio_de_la_serie": 4.14,
+      "maximo_publicado": {
+        "date": "2024-06-22",
+        "valor": 5.89
+      },
+      "maximo_de_la_serie": 4.59
+    },
+    "aplanadoras": {
+      "promedio_publicado": 0.99,
+      "promedio_de_la_serie": 1.56,
+      "maximo_publicado": {
+        "date": "2024-06-28",
+        "valor": 2.37
+      },
+      "maximo_de_la_serie": 2.37
+    }
+  },
+  "fechas_citadas_ausentes": [
+    "2024-06-09",
+    "2024-06-16",
+    "2024-06-22",
+    "2024-06-26"
+  ]
+}

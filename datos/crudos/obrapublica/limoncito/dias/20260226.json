@@ -1,0 +1,214 @@
+{
+  "fecha": "20260226",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260226-071516.jpg",
+      "fecha_hora": "26/02/2026 07:15:16",
+      "maquinaria": [
+        "Grua torre",
+        "Montacargas"
+      ],
+      "personas_trabajadoras": 4,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "Si",
+        "observaciones": "La baja nitidez de la imagen impide determinar el uso de EPP individuales. Se observan barandas perimetrales (redes de seguridad rojas) en los niveles superiores."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto de un edificio.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción (estructura de concreto), no siendo posible evaluar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260226-114623.jpg",
+      "fecha_hora": "26/02/2026 11:46:23",
+      "maquinaria": [
+        "Grua torre",
+        "Retroexcavadora"
+      ],
+      "personas_trabajadoras": 1,
+      "seguridad_laboral": {
+        "uso_casco": "Si",
+        "uso_chaleco": "No",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No",
+        "observaciones": "Un trabajador visible con casco en el nivel del suelo. No se observan barandas perimetrales en los niveles elevados de la estructura."
+      },
+      "actividad_desarrollada": "Construcción de la estructura principal de concreto y movimiento de tierras en el área de trabajo.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Losas de concreto",
+        "Muros de concreto",
+        "Refuerzo de acero",
+        "Formaletas",
+        "Bloques de concreto"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción, no es posible identificar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260226-120714.jpg",
+      "fecha_hora": "26/02/2026 12:07:14",
+      "maquinaria": [
+        "Grua torre",
+        "Retroexcavadora",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La baja calidad de la imagen dificulta la confirmación del uso de EPP. No se observa trabajo en altura que requiera arnés en los trabajadores visibles."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto de un edificio de múltiples niveles.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Refuerzo de acero (rebar)",
+        "Formaletas"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "En esta etapa de construcción de la estructura, no es posible identificar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260226-141224.jpg",
+      "fecha_hora": "26/02/2026 14:12:24",
+      "maquinaria": [
+        "Grua torre"
+      ],
+      "personas_trabajadoras": 5,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No",
+        "observaciones": "Se observan trabajadores en niveles elevados sin barandas perimetrales visibles. El uso de arneses de seguridad no es discernible debido a la baja resolución de la imagen."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto y movimiento de materiales.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Refuerzo de acero",
+        "Encofrado"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas de acceso",
+          "Ascensores accesibles",
+          "Baños accesibles",
+          "Señalización táctil"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de la estructura, por lo que no se observan elementos de accesibilidad universal implementados en esta fase."
+      }
+    },
+    {
+      "nombre_imagen": "20260226-155637.jpg",
+      "fecha_hora": "26/02/2026 15:56:37",
+      "maquinaria": [
+        "Mezcladora de concreto",
+        "Bomba de concreto",
+        "Excavadora",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "Uso de casco visible en al menos dos trabajadores. La visibilidad de otros EPP y la completitud de barandas perimetrales es limitada debido a la calidad de la imagen y la distancia."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto, incluyendo preparación y vertido de concreto con encofrados y armaduras.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrado",
+        "Armadura"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de estructura, por lo que no se observan elementos de accesibilidad universal."
+      }
+    }
+  ]
+}

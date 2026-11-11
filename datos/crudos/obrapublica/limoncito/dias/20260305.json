@@ -1,0 +1,233 @@
+{
+  "fecha": "20260305",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260305-070936.jpg",
+      "fecha_hora": "05/03/2026 07:09:36",
+      "maquinaria": [
+        "Grua torre",
+        "Mezcladora de concreto",
+        "Andamios metalicos",
+        "Generador electrico"
+      ],
+      "personas_trabajadoras": 7,
+      "seguridad_laboral": {
+        "uso_casco": "Si",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "Se observan trabajadores en altura y en la estructura de cubierta sin que sea posible determinar el uso de arneses de seguridad o la presencia de barandas perimetrales."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto de varios niveles y montaje de la estructura metálica de la cubierta.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Estructura de concreto",
+        "Estructura metálica",
+        "Formaletas",
+        "Varillas de refuerzo"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de estructura, no es posible evaluar elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260305-114043.jpg",
+      "fecha_hora": "05/03/2026 11:40:43",
+      "maquinaria": [
+        "Grua movil",
+        "Mezcladora de concreto",
+        "Generador electrico",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "Si",
+        "uso_chaleco": "Si",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No",
+        "observaciones": "Los dos trabajadores visibles utilizan casco y chaleco de seguridad. No se observan barandas perimetrales en los niveles superiores de la estructura."
+      },
+      "actividad_desarrollada": "Vaciado de concreto y montaje de estructura de cubierta.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Estructura metálica de cubierta",
+        "Encofrado"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas de acceso",
+          "Pasamanos",
+          "Señalización táctil",
+          "Baños accesibles"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa actual de la obra no permite evaluar la implementación de elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260305-120134.jpg",
+      "fecha_hora": "05/03/2026 12:01:34",
+      "maquinaria": [
+        "Grua torre",
+        "Mezcladora de concreto",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No",
+        "observaciones": "La baja calidad de la imagen impide la identificación clara de trabajadores y el uso de EPP. No se observan barandas perimetrales adecuadas en los niveles elevados."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto y montaje de la cubierta metálica.",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto, Cubierta",
+      "elementos_constructivos": [
+        "Estructura de concreto",
+        "Encofrado",
+        "Armadura de acero",
+        "Estructura metalica",
+        "Muros de concreto"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas",
+          "Ascensores",
+          "Pasamanos",
+          "Señalizacion"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción de la estructura, lo que impide la identificación de elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260305-140645.jpg",
+      "fecha_hora": "05/03/2026 14:06:45",
+      "maquinaria": [
+        "Montacargas",
+        "Mezcladora de concreto",
+        "Grua torre",
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 3,
+      "seguridad_laboral": {
+        "uso_casco": "Parcial",
+        "uso_chaleco": "Parcial",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No",
+        "observaciones": "Visibilidad limitada impide confirmar uso de EPP completo en todos los trabajadores. Ausencia de barandas perimetrales visibles en niveles elevados."
+      },
+      "actividad_desarrollada": "Construcción de edificio de múltiples niveles, incluyendo estructura de concreto y montaje de cubierta metálica.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Losas de concreto",
+        "Vigas de concreto",
+        "Estructura metálica de cubierta",
+        "Muros de concreto",
+        "Refuerzo de acero"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas de acceso",
+          "Pasamanos",
+          "Señalización accesible"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en etapa de estructura, no se observan elementos de accesibilidad universal. Estos se implementarán en fases posteriores."
+      }
+    },
+    {
+      "nombre_imagen": "20260305-155103.jpg",
+      "fecha_hora": "05/03/2026 15:51:03",
+      "maquinaria": [
+        "Grua torre",
+        "Mezcladora de concreto",
+        "Andamios metalicos",
+        "Generador electrico"
+      ],
+      "personas_trabajadoras": 3,
+      "seguridad_laboral": {
+        "uso_casco": "Si",
+        "uso_chaleco": "Si",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No",
+        "observaciones": "Los tres trabajadores visibles usan casco y chaleco de seguridad. No se observan barandas perimetrales en los niveles elevados de la estructura. El uso de arnés de seguridad no es determinable para el trabajador en altura."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto y montaje de cubierta metálica.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Muros de concreto",
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Estructura metalica"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas",
+          "Ascensores",
+          "Pasamanos"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana para evaluar elementos de accesibilidad universal. No se observan rampas o ascensores."
+      }
+    }
+  ]
+}

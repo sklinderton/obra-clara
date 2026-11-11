@@ -1,0 +1,120 @@
+{
+  "fecha": "20260205",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260205-074442.jpg",
+      "fecha_hora": "05/02/2026 07:44:42",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La extrema baja visibilidad de la imagen impide la identificación de cualquier elemento de seguridad laboral o personal en el sitio."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Implementar señalizacion adecuada",
+          "Aumentar iluminacion en areas de trabajo"
+        ]
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La calidad de la imagen es insuficiente para detectar elementos de accesibilidad universal o evaluar su cumplimiento."
+      }
+    },
+    {
+      "nombre_imagen": "20260205-115431.jpg",
+      "fecha_hora": "05/02/2026 11:54:31",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La extrema baja nitidez y visibilidad impiden determinar cualquier aspecto de seguridad laboral o presencia de personal."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "No determinable",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "No determinable",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La imagen no permite identificar elementos constructivos ni de accesibilidad universal debido a la baja visibilidad."
+      }
+    },
+    {
+      "nombre_imagen": "20260205-125655.jpg",
+      "fecha_hora": "05/02/2026 12:56:55",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La extrema baja visibilidad impide determinar la presencia de personal o equipos de seguridad. No se distinguen estructuras elevadas ni trabajos en altura."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Mejorar iluminacion",
+          "Usar senalizacion adecuada",
+          "Proceder con extrema precaucion"
+        ]
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La imagen no permite identificar elementos de accesibilidad universal debido a la baja visibilidad y la falta de detalles claros de la estructura."
+      }
+    },
+    {
+      "nombre_imagen": "20260205-142012.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "05/02/2026 14:20:12"
+    },
+    {
+      "nombre_imagen": "20260205-152241.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "05/02/2026 15:22:41"
+    }
+  ]
+}

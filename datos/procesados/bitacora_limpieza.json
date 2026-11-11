@@ -1,0 +1,89 @@
+{
+  "generado": "2026-11-11T16:22:31-06:00",
+  "pasos": [
+    {
+      "etapa": "Limoncito",
+      "regla": "Imágenes con error 'Imagen no analizable' conservadas y marcadas analizable=false (no se borran)",
+      "registros_afectados": 19
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Etapa constructiva en formato lista o texto con comas convertida a lista canónica ordenada",
+      "registros_afectados": 28
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Etapa vacía o 'No determinable' convertida a dato faltante explícito",
+      "registros_afectados": 66
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Tildes restituidas en etiquetas del vocabulario (Mampostería, Grúa torre, Camión, Sí, etc.)",
+      "registros_afectados": 579,
+      "detalle": "Andamios metalicos: 199, Grua torre: 161, Si: 73, Generador electrico: 49, Camion mixer: 45, Grua movil: 25, Mamposteria: 18, Camion de volteo: 9"
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "'Andamios metálicos' reclasificados de maquinaria a estructura temporal",
+      "registros_afectados": 193
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Conteo de 0 personas con visibilidad 'Mala' marcado como no verificable",
+      "registros_afectados": 125
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Accesibilidad universal 0 % antes de acabados tratada como 'no evaluable' (null)",
+      "registros_afectados": 365
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Registros sin campo 'elementos_constructivos' completados con lista vacía",
+      "registros_afectados": 1
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Días con lecturas de etapa sin ninguna etapa en común entre imágenes (contradicción marcada, no corregida)",
+      "registros_afectados": 17
+    },
+    {
+      "etapa": "Limoncito",
+      "regla": "Cobertura: días hábiles sin imágenes entre la primera y la última fecha",
+      "registros_afectados": 0,
+      "detalle": "77 días hábiles entre 2026-01-01 y 2026-04-17"
+    },
+    {
+      "etapa": "Taras-La Lima",
+      "regla": "Serie diaria reordenada cronológicamente (el tablero original la muestra desordenada)",
+      "registros_afectados": 5
+    },
+    {
+      "etapa": "Taras-La Lima",
+      "regla": "Fechas citadas en máximos/mínimos que no existen en la serie publicada",
+      "registros_afectados": 4,
+      "detalle": "2024-06-09, 2024-06-16, 2024-06-22, 2024-06-26"
+    },
+    {
+      "etapa": "Mapas",
+      "regla": "Metadatos de obras extraídos del código del mapa (nombre, descripción, coordenadas, enlaces)",
+      "registros_afectados": 2
+    },
+    {
+      "etapa": "MapaInversiones",
+      "regla": "Fechas dd/mm/aaaa y porcentajes con coma decimal convertidos a ISO 8601 y número",
+      "registros_afectados": 4
+    },
+    {
+      "etapa": "MapaInversiones",
+      "regla": "Discrepancia: avance físico del encabezado distinto al de la fase en ejecución (se muestran ambos)",
+      "registros_afectados": 1,
+      "detalle": "encabezado 54.4 % vs fase 54.0 %"
+    },
+    {
+      "etapa": "MapaInversiones",
+      "regla": "Listados paginados unidos en una tabla; espacios sobrantes en nombres eliminados",
+      "registros_afectados": 265
+    }
+  ]
+}

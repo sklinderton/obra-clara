@@ -1,0 +1,61 @@
+{
+  "fecha": "20260206",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260206-071647.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "06/02/2026 07:16:47"
+    },
+    {
+      "nombre_imagen": "20260206-104458.jpg",
+      "fecha_hora": "06/02/2026 10:44:58",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La imagen presenta una visibilidad extremadamente baja, impidiendo la identificación de cualquier elemento de seguridad laboral."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Proceder con extrema precaución debido a la visibilidad nula."
+        ]
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La visibilidad de la imagen es nula, impidiendo la detección de cualquier elemento de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260206-135222.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "06/02/2026 13:52:22"
+    },
+    {
+      "nombre_imagen": "20260206-151540.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "06/02/2026 15:15:40"
+    },
+    {
+      "nombre_imagen": "20260206-153627.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "06/02/2026 15:36:27"
+    }
+  ]
+}

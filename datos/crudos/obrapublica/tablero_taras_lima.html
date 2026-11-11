@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Intersección vial Taras-La Lima</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+
+    <style>
+        .chart-container {
+            position: relative;
+            height: 400px;
+            width: 100%;
+        }
+        .stats-table th, .stats-table td {
+            padding: 0.75rem;
+            text-align: left;
+        }
+        .stats-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+        }
+        .stats-table tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="p-6 max-w-6xl mx-auto bg-white shadow-lg rounded-lg">
+        <header class="mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">Intersección vial Taras-La Lima</h1>
+            <p class="text-gray-600">Dashboard de Detección de Objetos</p>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <div class="bg-gray-50 p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Tendencias Diarias de Detección (Promedios)</h2>
+                <div class="chart-container">
+                    <canvas id="lineChart"></canvas>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg shadow">
+                <h2 class="text-xl font-semibold mb-4">Distribución Total de Detecciones</h2>
+                <div class="chart-container">
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-50 p-6 rounded-lg shadow mb-8">
+            <h2 class="text-xl font-semibold mb-4">Estadísticas Resumidas</h2>
+            
+            <!-- Tabla de Promedios -->
+            <div class="overflow-x-auto mb-6">
+                <h3 class="text-lg font-semibold mb-3">Promedios Diarios</h3>
+                <table class="w-full stats-table">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Promedio General</th>
+                            <th>Día con Máximo</th>
+                            <th>Valor Máximo</th>
+                            <th>Día con Mínimo</th>
+                            <th>Valor Mínimo</th>
+                        </tr>
+                    </thead>
+                    <tbody id="promediosTable">
+                        <!-- Se llenará con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tabla de Días sin Detección -->
+            <div class="overflow-x-auto">
+                <h3 class="text-lg font-semibold mb-3">Días sin Detección</h3>
+                <table class="w-full stats-table">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Días sin Detección</th>
+                        </tr>
+                    </thead>
+                    <tbody id="diasSinDeteccionTable">
+                        <!-- Se llenará con JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            const data = {
+                timeData: [{"date":"2024-06-28","personas":4.13,"tractores":4.59,"aplanadoras":2.37,"totalImagenes":310},{"date":"2024-06-29","personas":2.47,"tractores":4.49,"aplanadoras":1.78,"totalImagenes":312},{"date":"2024-06-30","personas":0.94,"tractores":2.91,"aplanadoras":0.34,"totalImagenes":305},{"date":"2024-07-01","personas":2.35,"tractores":4.18,"aplanadoras":1.55,"totalImagenes":314},{"date":"2024-06-25","personas":2.85,"tractores":4.54,"aplanadoras":1.77,"totalImagenes":310}],
+                stats: {
+                    "promedios":{"personas":1.74,"tractores":3.46,"aplanadoras":0.99},
+                    "maximos":{
+                        "personas":{"date":"2024-06-26","valor":4.24},
+                        "tractores":{"date":"2024-06-22","valor":5.89},
+                        "aplanadoras":{"date":"2024-06-28","valor":2.37}
+                    },
+                    "minimos":{
+                        "personas":{"date":"2024-06-16","valor":0.56},
+                        "tractores":{"date":"2024-06-09","valor":1.09},
+                        "aplanadoras":{"date":"2024-06-09","valor":0}
+                    },
+                    "diasSinDeteccion":{"personas":0,"tractores":0,"aplanadoras":1}
+                }
+            };
+
+            // Función para formatear números
+            const formatNumber = (num) => num.toFixed(2);
+
+            // Llenar tabla de promedios
+            const promediosTable = document.getElementById('promediosTable');
+            ['personas', 'tractores', 'aplanadoras'].forEach(categoria => {
+                const tr = document.createElement('tr');
+                const capitalized = categoria.charAt(0).toUpperCase() + categoria.slice(1);
+                tr.innerHTML = `
+                    <td class="font-medium">${capitalized}</td>
+                    <td>${formatNumber(data.stats.promedios[categoria])}</td>
+                    <td>${data.stats.maximos[categoria].date}</td>
+                    <td>${formatNumber(data.stats.maximos[categoria].valor)}</td>
+                    <td>${data.stats.minimos[categoria].date}</td>
+                    <td>${formatNumber(data.stats.minimos[categoria].valor)}</td>
+                `;
+                promediosTable.appendChild(tr);
+            });
+
+            // Llenar tabla de días sin detección
+            const diasSinDeteccionTable = document.getElementById('diasSinDeteccionTable');
+            ['personas', 'tractores', 'aplanadoras'].forEach(categoria => {
+                const tr = document.createElement('tr');
+                const capitalized = categoria.charAt(0).toUpperCase() + categoria.slice(1);
+                tr.innerHTML = `
+                    <td class="font-medium">${capitalized}</td>
+                    <td>${data.stats.diasSinDeteccion[categoria]}</td>
+                `;
+                diasSinDeteccionTable.appendChild(tr);
+            });
+
+            try {
+                // Configurar gráfico de líneas
+                const lineCtx = document.getElementById('lineChart').getContext('2d');
+                new Chart(lineCtx, {
+                    type: 'line',
+                    data: {
+                        labels: data.timeData.map(d => d.date),
+                        datasets: [
+                            {
+                                label: 'Personas',
+                                data: data.timeData.map(d => d.personas),
+                                borderColor: '#0088FE',
+                                tension: 0.1
+                            },
+                            {
+                                label: 'Tractores',
+                                data: data.timeData.map(d => d.tractores),
+                                borderColor: '#00C49F',
+                                tension: 0.1
+                            },
+                            {
+                                label: 'Aplanadoras',
+                                data: data.timeData.map(d => d.aplanadoras),
+                                borderColor: '#FFBB28',
+                                tension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            x: {
+                                ticks: {
+                                    maxRotation: 90,
+                                    minRotation: 90
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Promedio de detecciones por día'
+                                }
+                            }
+                        }
+                    }
+                });
+
+                // Configurar gráfico circular
+                const pieCtx = document.getElementById('pieChart').getContext('2d');
+                const totals = {
+                    personas: data.stats.promedios.personas,
+                    tractores: data.stats.promedios.tractores,
+                    aplanadoras: data.stats.promedios.aplanadoras
+                };
+
+                new Chart(pieCtx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Personas', 'Tractores', 'Aplanadoras'],
+                        datasets: [{
+                            data: [totals.personas, totals.tractores, totals.aplanadoras],
+                            backgroundColor: ['#0088FE', '#00C49F', '#FFBB28']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Distribución de Promedios Diarios'
+                            }
+                        }
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error al inicializar los gráficos:', error);
+            }
+        });
+    </script>
+</body>
+</html>

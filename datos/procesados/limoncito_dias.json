@@ -1,0 +1,2613 @@
+[
+  {
+    "fecha": "2026-01-01",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 2,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 1 de enero de 2026, las labores en la construcción de la Escuela de Limoncito, una escuela primaria en Limón, se enfocaron en la etapa de estructura de concreto. Las imágenes tomadas durante el día mostraron el progreso en esta fase de la obra.\n\nLas condiciones climáticas generales fueron mayormente nubladas o parcialmente nubladas.\n\nEs notable que en ninguna de las cinco capturas del día se observó personal trabajando ni maquinaria en operación. Por esta razón, no fue posible realizar observaciones sobre el uso de equipo de seguridad como cascos, chalecos, arneses de altura o la implementación de barandas.\n\nEl nivel de actividad en el sitio fue muy bajo, sugiriendo que las labores estuvieron detenidas o con una presencia mínima de personal en los momentos de las tomas."
+  },
+  {
+    "fecha": "2026-01-02",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 2 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron principalmente en la etapa de estructura de concreto del edificio. Las imágenes capturadas a lo largo del día revelaron el avance en la estructura principal, con la notable presencia de andamios metálicos, indicando trabajos relacionados con alturas o preparaciones para ellos.\n\nA pesar de las descripciones de las actividades, no se observó personal trabajando en ninguna de las fotografías, lo que sugiere un nivel de actividad bajo o nulo en los momentos de las tomas. Las condiciones climáticas generales fueron nubladas, con un breve periodo parcialmente nublado por la tarde. En cuanto a la seguridad, no fue posible determinar el uso de equipos como cascos, chalecos, arneses o barandas en las imágenes analizadas."
+  },
+  {
+    "fecha": "2026-01-05",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 1,
+    "personas_max_verificable": 1,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Alto",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 5 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en la etapa de la estructura de concreto. A lo largo del día, el clima predominó nublado, volviéndose lluvioso hacia la tarde.\n\nEl nivel de actividad fue bajo; no se observó maquinaria en el sitio y la presencia de personal fue mínima, con solo una persona registrada realizando trabajos en altura sobre la estructura o andamios. En cuanto a las medidas de seguridad para esta labor en altura, se pudo determinar que el trabajador utilizaba casco, pero no fue posible confirmar si portaba arnés de seguridad ni si existían barandas de protección."
+  },
+  {
+    "fecha": "2026-01-06",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 1,
+    "personas_max_verificable": 1,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 6 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en la estructura de concreto del edificio educativo. A lo largo del día, las labores consistieron en la edificación de los elementos estructurales.\n\nComo maquinaria destacada, se observaron andamios metálicos en una de las instancias. Las condiciones climáticas se mantuvieron nubladas durante todo el periodo de observación.\n\nEn cuanto a la seguridad, se registró el uso de un casco por parte de un trabajador, aunque otros elementos como arneses para trabajos en altura o barandas no fueron determinables o aplicables en la mayoría de las tomas. Dada la escasa presencia de personal (casi nula en la mayoría de las imágenes), el nivel de actividad general fue bajo."
+  },
+  {
+    "fecha": "2026-01-07",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 2,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 07 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito, en Cieneguita, Limón, fueron nulas o extremadamente bajas. Durante todo el día, en las cinco imágenes capturadas, no se observó la presencia de personal ni maquinaria trabajando en el sitio.\n\nLas condiciones climáticas generales se mantuvieron nubladas. Aunque el proyecto se encuentra en la etapa de \"Estructura de concreto\", no se pudo determinar ninguna actividad principal como colado o mampostería debido a la ausencia de trabajadores y equipos. No se registró maquinaria destacada operando.\n\nDado que no se observaron personas realizando trabajos, no fue posible hacer observaciones sobre el uso de equipos de seguridad personal como cascos, chalecos o arneses en altura. El nivel de actividad general en el proyecto fue inexistente ese día."
+  },
+  {
+    "fecha": "2026-01-08",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 4,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 1,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "Resumen de Actividades de Construcción - Escuela de Limoncito (08/01/2026)\n\nEl 8 de enero de 2026, las actividades de construcción en la Escuela de Limoncito mostraron un nivel de actividad extremadamente bajo, o nulo, durante las horas de observación. A lo largo del día, en ninguna de las cinco imágenes capturadas se registró la presencia de personal ni de maquinaria en el sitio.\n\nAunque una de las imágenes de la mañana señaló la etapa de \"estructura de concreto\", no se observaron trabajos activos. Las condiciones climáticas generales transitaron de despejadas por la mañana a parcialmente nubladas al mediodía y finalmente nubladas por la tarde.\n\nDebido a la ausencia de trabajadores en las tomas, no fue posible realizar observaciones sobre el uso de equipo de seguridad como cascos o chalecos, ni sobre la presencia de barandas para trabajos en altura. En resumen, el proyecto parecía inactivo durante todo el período monitoreado."
+  },
+  {
+    "fecha": "2026-01-09",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 9 de enero de 2026, se realizaron observaciones en el sitio de construcción de la Escuela de Limoncito en Cieneguita, Limón. A lo largo del día, se tomaron cinco imágenes bajo un clima consistentemente nublado.\n\nLa principal observación es que no se detectó personal ni maquinaria en ninguna de las fotografías, capturadas entre las 7:20 AM y la 1:35 PM. Aunque la etapa del proyecto fue identificada como \"Estructura de concreto\" y algunas imágenes mencionaban \"Construcción de edificio\", la ausencia de personas impidió determinar actividades específicas como colado de concreto o mampostería.\n\nDebido a la falta de trabajadores en el sitio, no fue posible hacer observaciones sobre el uso de cascos, chalecos u otros elementos de seguridad personal. Las condiciones de seguridad para trabajos en altura, como arneses o barandas, no fueron determinables o no aplicaban en las escenas capturadas.\n\nEn resumen, el nivel de actividad en el proyecto fue extremadamente bajo o nulo durante el periodo de observación, con la obra aparentemente sin personal ni maquinaria en operación."
+  },
+  {
+    "fecha": "2026-01-12",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 4,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 1,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 12 de enero de 2026, el sitio de construcción de la Escuela de Limoncito en Cieneguita, Limón, mostró una actividad muy limitada. Durante las cinco capturas del día, no se observó personal trabajando ni maquinaria en operación.\n\nAunque una imagen de la tarde indicó que el proyecto se encuentra en la etapa de \"Estructura de concreto\", no se registraron actividades de construcción activas. Las condiciones climáticas fueron mayormente nubladas a lo largo del día. Dada la ausencia de personas en las imágenes, no fue posible determinar el cumplimiento de las medidas de seguridad como el uso de cascos o chalecos, ni si había trabajos en altura que requirieran arneses o barandas. El nivel de actividad general en el sitio parecía ser muy bajo o inexistente durante los momentos de las tomas fotográficas."
+  },
+  {
+    "fecha": "2026-01-13",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 3,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 2,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El día 13 de enero de 2026, las actividades en el proyecto de construcción de la Escuela de Limoncito en Cieneguita, Limón, Costa Rica, fueron nulas o no detectables. A lo largo de las cinco imágenes capturadas desde la mañana hasta la tarde, no se observó personal ni maquinaria operando en el sitio.\n\nLas condiciones climáticas predominantes fueron nubladas, con un cambio a parcialmente nublado al final de la tarde. No se pudo determinar ninguna actividad específica, aunque en algunos momentos se mencionó la etapa de \"Estructura de concreto\". Dada la ausencia de trabajadores y actividad, no hubo observaciones de seguridad relevantes que reportar. El nivel de actividad general en la obra fue extremadamente bajo o inexistente durante todo el día."
+  },
+  {
+    "fecha": "2026-01-14",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": 0,
+    "imagenes_vis_mala": 4,
+    "imagenes_etapa_nd": 2,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El día 14 de enero de 2026, la construcción de la Escuela de Limoncito, en Limón, Costa Rica, mostró un nivel de actividad observable muy bajo o mínimo. Las imágenes capturadas indicaron que el proyecto se encuentra en la etapa de estructura de concreto del edificio principal, con algunas tomas mostrando dicha estructura. Sin embargo, no se identificó maquinaria operando ni personal realizando labores activas en ninguna de las cinco imágenes.\n\nLas condiciones climáticas variaron a lo largo del día, comenzando despejadas por la mañana y tornándose parcialmente nubladas y luego nubladas por la tarde. Debido a la ausencia de trabajadores visibles, no fue posible hacer observaciones específicas sobre el uso de equipos de seguridad como cascos, chalecos o arneses para trabajos en altura."
+  },
+  {
+    "fecha": "2026-01-15",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 3,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 2,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 15 de enero de 2026, la construcción de la Escuela de Limoncito en Cieneguita, Limón, mostró un día con un nivel de actividad extremadamente bajo o nulo. A lo largo de las cinco capturas de imágenes realizadas desde la mañana hasta la tarde, no se observó personal trabajando ni maquinaria en operación en el sitio.\n\nDebido a la ausencia de actividad, no fue posible identificar tareas principales como el colado de concreto, mampostería o instalaciones. Las condiciones climáticas se mantuvieron consistentemente nubladas durante todo el día. En cuanto a la seguridad, no se pudieron realizar observaciones sobre el uso de cascos, chalecos, arneses de altura o barandas, dado que no había trabajadores presentes ni actividades en curso. Aunque en algunas imágenes se mencionó la etapa de \"Estructura de concreto\", no se documentó ningún avance visible."
+  },
+  {
+    "fecha": "2026-01-16",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 1,
+    "personas_max_verificable": 1,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 16 de enero de 2026, las actividades de construcción en la Escuela de Limoncito en Cieneguita, Limón, se mantuvieron en un nivel bajo. A lo largo del día, el proyecto se encontraba en la etapa de \"Estructura de concreto\". El clima fue consistentemente nublado.\n\nNo se observó maquinaria destacada en el sitio. Las imágenes mostraron poca presencia de personal, con solo una persona identificada en la tarde. Este individuo fue visto utilizando casco y chaleco de seguridad. No se registraron actividades específicas como colado de concreto o mampostería. En cuanto a seguridad, no se aplicaron observaciones de arneses o barandas, ya que no se detectaron trabajos en altura."
+  },
+  {
+    "fecha": "2026-01-19",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 3,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 2,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El día 19 de enero de 2026, las observaciones en el proyecto de construcción de la Escuela de Limoncito en Cieneguita mostraron un nivel de actividad visible extremadamente bajo. A lo largo de las cinco capturas del día, no se observó personal ni maquinaria operando en el sitio.\n\nAunque la etapa del proyecto fue identificada como \"Estructura de concreto\" y se mencionó la \"construcción de estructura de edificio\" en una ocasión, estas actividades no fueron visibles en las fotografías. El clima general fue mayormente nublado o parcialmente nublado. Respecto a la seguridad, no fue posible realizar observaciones sobre cascos, chalecos o barandas, dado que no se visualizó a ninguna persona trabajando en el lugar en los momentos de las tomas. La ausencia de trabajadores y equipo sugiere que no hubo actividad de construcción visible ese día."
+  },
+  {
+    "fecha": "2026-01-20",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 5,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El día 20 de enero de 2026, en el proyecto de construcción de la Escuela de Limoncito, las imágenes capturadas no mostraron actividad visible. Durante toda la jornada, no se registraron personas ni maquinaria operando en el sitio.\n\nLas condiciones climáticas fueron predominantemente nubladas a lo largo del día. No fue posible identificar actividades de construcción principales como colado de concreto o mampostería, ni se observó maquinaria destacada en uso.\n\nDebido a la ausencia de personal en las imágenes, no se pudieron realizar observaciones sobre el uso de equipo de seguridad como cascos o chalecos, ni sobre medidas de seguridad para trabajos en altura como arneses o barandas. El nivel de actividad observado en el sitio fue nulo o extremadamente bajo."
+  },
+  {
+    "fecha": "2026-01-21",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 3,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 2,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "A continuación, se presenta el resumen de las actividades de construcción de la Escuela de Limoncito para el día 21 de enero de 2026:\n\nEl día 21 de enero de 2026, las observaciones en el sitio de construcción de la Escuela de Limoncito mostraron un nivel de actividad nulo. Durante las cinco capturas de imágenes realizadas a lo largo del día, no se registró la presencia de personas ni maquinaria operando en el proyecto.\n\nAunque se identificó que el proyecto se encuentra en la etapa de \"Estructura de concreto\", no se detectaron actividades principales específicas como colado, mampostería o instalaciones. Las condiciones climáticas se mantuvieron nubladas durante toda la jornada. Debido a la ausencia de personal en el sitio, no fue posible realizar ninguna observación sobre el uso de equipo de seguridad, como cascos, chalecos o arneses para trabajos en altura."
+  },
+  {
+    "fecha": "2026-01-22",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 2,
+    "personas_max_verificable": 2,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 2,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 22 de enero de 2026, las actividades de construcción en la Escuela de Limoncito se centraron en la etapa de estructura de concreto. Durante la mañana y el mediodía, se observó personal trabajando activamente en la edificación, con un máximo de dos personas en sitio. Se hizo uso de andamios metálicos en algunos trabajos, posiblemente relacionados con la estructura o fachada.\n\nLas condiciones climáticas fueron consistentemente nubladas a lo largo del día. El nivel de actividad fue moderado durante las primeras horas, disminuyendo considerablemente en la tarde, donde no se registraron personas ni actividades determinables. En cuanto a la seguridad, se notó el uso parcial de cascos en una ocasión, pero no fue posible determinar el uso de chalecos, arneses de altura o la presencia de barandas de protección."
+  },
+  {
+    "fecha": "2026-01-23",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 4,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 1,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 23 de enero de 2026, las actividades de construcción en la Escuela de Limoncito se desarrollaron bajo un cielo consistentemente nublado. A lo largo de las cinco imágenes capturadas ese día, no se observó la presencia de personal trabajando en el sitio en ningún momento, lo que indica un nivel de actividad muy bajo o nulo para la jornada.\n\nAunque no se registraron actividades específicas en progreso, una de las imágenes mostró la presencia de andamios metálicos, sugiriendo que el proyecto se encuentra en la etapa de estructura de concreto, o en preparación para ella. Dada la ausencia de trabajadores, no fue posible hacer observaciones sobre el uso de equipos de seguridad personal como cascos o chalecos. Tampoco se pudo determinar la aplicación de arneses o barandas para trabajos en altura, aunque la presencia de andamios implica que esta etapa podría requerirlos."
+  },
+  {
+    "fecha": "2026-01-26",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 26 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron principalmente en la estructura de concreto. Se observaron trabajos relacionados con este componente, incluyendo la posible colocación de acero de refuerzo o encofrado. La maquinaria destacada fueron los andamios metálicos.\n\nLas condiciones climáticas generales del día fueron variables, predominantemente parcialmente nubladas a nubladas. En cuanto a la seguridad, no fue posible determinar el uso de cascos o chalecos. Aunque se identificaron andamios, las observaciones sobre arneses de altura o barandas de seguridad no fueron aplicables o determinables en las imágenes.\n\nCon un máximo de tres personas visibles en los momentos de mayor actividad, el nivel de actividad general del día fue bajo."
+  },
+  {
+    "fecha": "2026-01-27",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 8,
+    "personas_max_verificable": 8,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 2,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 27 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron en la estructura de concreto del edificio. La labor principal observada fue la preparación y montaje de encofrado, con un equipo de ocho personas realizando estas tareas a media mañana. Durante otras horas del día, la presencia de personal fue menor o las actividades no fueron claramente identificables. No se registró el uso de maquinaria destacada en las imágenes.\n\nLas condiciones climáticas se mantuvieron nubladas a lo largo de toda la jornada. En cuanto a la seguridad, se notó un uso parcial de cascos y chalecos en el momento de mayor actividad. Sin embargo, no fue posible determinar la utilización de arneses de seguridad o la presencia de barandas para trabajos en altura. El nivel general de actividad en el sitio fue medio a bajo, con un pico de trabajo en la mañana."
+  },
+  {
+    "fecha": "2026-01-28",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 28 de enero de 2026, las labores en la construcción de la Escuela de Limoncito se enfocaron principalmente en la etapa de estructura de concreto. Se reportaron trabajos de encofrado para elementos de concreto y la edificación de la estructura general del edificio, incluyendo actividades que podrían implicar niveles elevados.\n\nEl clima durante la jornada varió entre nublado y parcialmente nublado. No se registró el uso de maquinaria destacada. El nivel de actividad general pareció ser bajo a medio, ya que solo en dos momentos se observó personal trabajando, con un máximo de cuatro personas, y varias imágenes no mostraron actividad o personal.\n\nEn cuanto a la seguridad, para las actividades que sugerían trabajos en altura, no fue posible determinar si se estaban utilizando elementos como cascos, chalecos, arneses de seguridad o barandas de protección."
+  },
+  {
+    "fecha": "2026-01-29",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 1,
+    "personas_max_verificable": 1,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 29 de enero de 2026, las actividades en la construcción de la Escuela de Limoncito en Limón se enfocaron en la etapa de estructura de concreto. A lo largo del día, las imágenes capturadas mostraron la progresión en la edificación de la estructura del edificio.\n\nSin embargo, el nivel de actividad fue bajo, pues solo se registró la presencia de una persona trabajando a primera hora de la mañana. En el resto de las observaciones, no se detectó personal ni maquinaria destacada en el sitio.\n\nLas condiciones climáticas generales fueron de un día nublado a parcialmente nublado. Respecto a la seguridad, no fue posible determinar el uso de equipos de protección personal, y no se identificaron trabajos en altura que requirieran el uso de arnés o barandas."
+  },
+  {
+    "fecha": "2026-01-30",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 4,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 1,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 30 de enero de 2026, las actividades en el proyecto de construcción de la Escuela de Limoncito en Cieneguita, Limón, Costa Rica, registraron un nivel de actividad muy bajo. Durante las cinco capturas de imágenes realizadas a lo largo del día, no se observó personal trabajando en el sitio.\n\nLa única actividad identificada, temprano en la mañana (7:23 AM), fue la construcción de la estructura de un edificio de varios niveles, específicamente en la etapa de estructura de concreto. Sin embargo, no se registró la presencia de personas ni maquinaria en ninguna de las tomas. Las condiciones climáticas generales fueron nubladas durante todo el día.\n\nDebido a la ausencia de personal en las imágenes, no fue posible realizar observaciones sobre el uso de equipos de seguridad personal como cascos o chalecos, ni determinar la presencia de barandas de seguridad para trabajos en altura."
+  },
+  {
+    "fecha": "2026-02-02",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 4,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 1,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 2 de febrero de 2026, las observaciones en el proyecto de construcción de la Escuela de Limoncito mostraron un nivel de actividad muy bajo. A lo largo del día, no se registraron personas ni maquinaria trabajando en ninguna de las cinco imágenes capturadas.\n\nAunque una de las tomas de la tarde indicó que la obra se encontraba en la etapa de \"Estructura de concreto\", no fue posible discernir actividades principales específicas como colado de concreto, mampostería o instalaciones. Las condiciones climáticas se reportaron como nubladas en varias ocasiones, mientras que en otros momentos no fue posible determinarlas.\n\nDada la ausencia de personal en todas las fotografías, no se pudieron realizar observaciones sobre el uso de equipo de seguridad como cascos o chalecos, ni sobre medidas de seguridad para trabajos en altura, como arneses o barandas. En general, el sitio de construcción pareció inactivo durante el día."
+  },
+  {
+    "fecha": "2026-02-03",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 5,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 3 de febrero de 2026, el proyecto de construcción de la Escuela de Limoncito en Limón presentó un nivel de actividad extremadamente bajo. A lo largo del día, las cinco capturas de imágenes no registraron la presencia de personas trabajando en el sitio ni maquinaria en operación.\n\nDebido a la ausencia de personal y equipos, no fue posible identificar actividades de construcción específicas como el colado de concreto, mampostería o instalaciones. Las condiciones climáticas observadas durante la mayor parte del día fueron nubladas. Asimismo, no se pudieron realizar observaciones sobre el cumplimiento de medidas de seguridad, como el uso de cascos o chalecos, dada la falta de actividad en la obra. En resumen, el día transcurrió con una mínima o nula ejecución de trabajos en el proyecto."
+  },
+  {
+    "fecha": "2026-02-04",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 5,
+    "imagenes_etapa_nd": 5,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 04 de febrero de 2026, la construcción de la Escuela de Limoncito en Cieneguita, Limón, mostró un nivel de actividad muy bajo o nulo. Las cinco imágenes capturadas a lo largo del día no registraron la presencia de personal ni maquinaria en el sitio del proyecto.\n\nDebido a la ausencia de trabajadores y equipos, no fue posible identificar actividades principales de construcción como colado de concreto, mampostería o instalaciones. Las condiciones climáticas generales observadas fueron mayormente nubladas. En cuanto a la seguridad, al no haber personas presentes, no se pudieron realizar observaciones sobre el uso de cascos o chalecos, ni se detectaron trabajos en altura que requirieran arneses o barandas. La jornada transcurrió sin actividad visible en el sitio."
+  },
+  {
+    "fecha": "2026-02-05",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 3,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 3,
+    "imagenes_etapa_nd": 3,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 5 de febrero de 2026, el proyecto de construcción de la Escuela de Limoncito mostró un nivel de actividad extremadamente bajo, según los datos proporcionados para las tres imágenes disponibles.\n\nDurante las horas de captura (07:44, 11:54 y 12:56), no se observó personal ni maquinaria operando en el sitio. Debido a la ausencia de actividad, no se pudieron identificar tareas principales como el colado de concreto, mampostería o instalaciones. Las condiciones climáticas predominantes fueron nubladas en las observaciones donde fue posible determinarlo.\n\nEn cuanto a la seguridad, no se pudo realizar ninguna evaluación, ya que no había personas ni trabajos en curso, y por ende, no se observaron trabajos en altura que requirieran arneses o barandas. La obra parecía estar inactiva durante los momentos capturados."
+  },
+  {
+    "fecha": "2026-02-06",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 1,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 1,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 6 de febrero de 2026, en el proyecto de construcción de la Escuela de Limoncito en Cieneguita, la actividad observada fue nula. Según los datos de la única imagen disponible, capturada alrededor de las 10:45 AM, no se registraron personas trabajando ni maquinaria en el sitio. Por lo tanto, no se identificaron actividades principales como colado de concreto, mampostería o instalaciones.\n\nLas condiciones climáticas en el momento de la captura eran nubladas. Dada la ausencia de personal y trabajos, no fue posible realizar observaciones sobre el uso de equipo de seguridad como cascos o chalecos, y las medidas de seguridad para trabajos en altura no aplicaban. El nivel de actividad general para la jornada, basándose en esta información, fue extremadamente bajo o inexistente."
+  },
+  {
+    "fecha": "2026-02-09",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 0,
+    "personas_min": null,
+    "personas_mediana": null,
+    "personas_max": null,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": null,
+    "clima_dominante": null,
+    "resumen_ia": "Aquí tienes un resumen de las actividades de construcción de la Escuela de Limoncito, Cieneguita, Limón, Costa Rica, para el día 09 de febrero de 2026.\n\nEl 9 de febrero de 2026, la obra de la Escuela de Limoncito mantuvo un alto nivel de actividad bajo condiciones mayormente soleadas. Las cuadrillas avanzaron en varias frentes principales: se trabajó en el armado de acero de refuer"
+  },
+  {
+    "fecha": "2026-02-10",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 0,
+    "personas_min": null,
+    "personas_mediana": null,
+    "personas_max": null,
+    "personas_max_verificable": null,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": null,
+    "etapas_distintas": [],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 0,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {},
+    "grua_torre": false,
+    "con_actividad": false,
+    "riesgo_max": null,
+    "clima_dominante": null,
+    "resumen_ia": "El 10 de febrero de 2026, la construcción de la Escuela de Limoncito experimentó una jornada de actividad alta y diversificada. Se observaron importantes avances en la mampostería, con obreros instalando bloques para las paredes internas del segundo piso de un módulo de aulas, apoyados en andamios.\n\nEn el exterior, una retroexcavadora se encargaba de nivelar el terreno para futuras áreas. Paralelamente, el equipo de instalaciones eléctricas progresaba en las aulas, colocando tuberías y cableado. También se realizaban trabajos de encofrado para el colado de concreto en una losa o rampa de acceso, con un camión mezclador en el sitio.\n\nLa seguridad fue destacada, especialmente en los trabajos en altura en la estructura del techo, donde los trabajadores utilizaban arneses de seguridad y barandas temporales. El día estuvo mayormente nublado. En resumen, fue una jornada muy productiva con múltiples frentes de obra activos simultáneamente."
+  },
+  {
+    "fecha": "2026-02-11",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 2,
+    "personas_min": 0,
+    "personas_mediana": 2.5,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 2,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 2,
+      "Retroexcavadora": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 11 de febrero de 2026, las actividades en la Escuela de Limoncito se centraron en la etapa de construcción de la estructura de concreto. Las tareas principales incluyeron la edificación de muros, la preparación de losas con varillas de refuerzo, el encofrado y el vertido de concreto para los edificios.\n\nPara estas labores, se hizo uso de maquinaria destacada como una grúa torre y una retroexcavadora. Las condiciones climáticas generales durante el día fueron nubladas.\n\nEn cuanto a la seguridad, no fue posible determinar el uso de cascos o chalecos por parte del personal en las imágenes capturadas. Se observó que las barandas de seguridad estaban ausentes en algunas áreas o solo parcialmente presentes en otras, lo cual es una observación importante. El nivel de actividad general fue activo, con el equipo concentrado en el avance de la estructura de concreto."
+  },
+  {
+    "fecha": "2026-02-12",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 6,
+    "personas_mediana": 9,
+    "personas_max": 12,
+    "personas_max_verificable": 12,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Compactador manual": 2,
+      "Camión mezclador (mixer)": 2,
+      "Retroexcavadora": 2,
+      "Mezcladora de concreto": 2,
+      "Generador eléctrico": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 12 de febrero de 2026, la construcción de la Escuela de Limoncito mostró una intensa actividad, enfocada principalmente en la estructura de concreto de un edificio de múltiples niveles. Durante la jornada, se realizaron tareas de encofrado, armado de acero y, de manera destacada, el vaciado de concreto en losas y columnas.\n\nLa grúa torre y los andamios metálicos fueron la maquinaria más visible y utilizada, complementada por camiones mixer, retroexcavadoras y mezcladoras de concreto.\n\nLas condiciones climáticas fueron predominantemente nubladas, con un periodo despejado durante la tarde.\n\nSe observó un alto nivel de actividad con un promedio de nueve personas trabajando activamente. En cuanto a la seguridad, el uso de cascos y chalecos fue parcial o no determinable. Es importante señalar que no se pudo determinar el uso de arneses de seguridad para trabajos en altura, y en algunas ocasiones se reportó la ausencia de barandas de protección, lo cual es relevante al realizar vaciados en losas superiores."
+  },
+  {
+    "fecha": "2026-02-13",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 7,
+    "personas_max": 10,
+    "personas_max_verificable": 10,
+    "imagenes_vis_mala": 2,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Compactador manual": 5,
+      "Generador eléctrico": 2,
+      "Retroexcavadora": 2,
+      "Excavadora": 1,
+      "Montacargas": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 13 de febrero de 2026, la construcción de la Escuela de Limoncito se enfocó intensamente en la edificación de la estructura de concreto de un edificio de varios niveles. Las actividades principales incluyeron el levantamiento de columnas, vigas y losas, la colocación de armadura y la preparación de encofrados en niveles superiores. Paralelamente, se realizaron trabajos de movimiento de tierras y compactación en las zonas inferiores.\n\nLa maquinaria destacada fue la grúa torre, retroexcavadoras, compactadores manuales y andamios metálicos. El clima se mantuvo mayormente nublado a lo largo del día.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos. Sin embargo, en trabajos realizados en altura, se notó la ausencia de barandas de seguridad en algunos puntos. El nivel de actividad fue medio a alto, con un equipo de hasta diez personas trabajando activamente."
+  },
+  {
+    "fecha": "2026-02-16",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 6,
+    "personas_max": 9,
+    "personas_max_verificable": 9,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Generador eléctrico": 2,
+      "Cargador frontal": 2,
+      "Mezcladora de concreto": 2,
+      "Excavadora": 2,
+      "Retroexcavadora": 1,
+      "Camión mezclador (mixer)": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 16 de febrero de 2026, la construcción de la Escuela de Limoncito mostró un alto nivel de actividad, enfocándose principalmente en la estructura de concreto de varios niveles. Durante la jornada, se llevaron a cabo trabajos de encofrado, colocación de varillas y armaduras, y un significativo vaciado de concreto alrededor del mediodía. También hubo movimiento de tierras en la base de la obra.\n\nLa grúa torre fue una maquinaria constante, complementada por camiones mixer, cargadores frontales, excavadoras y andamios metálicos. El clima inició nublado, pero se mantuvo despejado la mayor parte del día.\n\nEn seguridad, se observó un uso parcial de cascos y chalecos. Sin embargo, la ausencia o parcialidad de barandas de seguridad es una preocupación relevante, dada la naturaleza del trabajo en altura en la estructura, y no fue posible determinar el uso de arneses."
+  },
+  {
+    "fecha": "2026-02-17",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 5,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Compactador manual": 2,
+      "Generador eléctrico": 2,
+      "Retroexcavadora": 2,
+      "Montacargas": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 17 de febrero de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron intensamente en la edificación de la estructura de concreto. Los trabajos incluyeron el armado de armadura, el encofrado y la posterior formación de columnas, vigas y losas para el edificio de múltiples niveles, además de preparación del terreno.\n\nLa maquinaria destacada fue la grúa torre, utilizada a lo largo del día, junto con un camión mixer, retroexcavadoras, compactadores manuales y andamios metálicos. Las condiciones climáticas variaron, con predominio de cielos nublados y algunos periodos despejados.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos. Es importante señalar que la presencia de andamios indica trabajos en altura, pero la protección contra caídas, como arneses y barandas, no fue determinable o estaba ausente, lo cual requiere atención.\n\nEl nivel de actividad fue alto, con un número consistente de trabajadores y maquinaria operando durante toda la jornada."
+  },
+  {
+    "fecha": "2026-02-18",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 4,
+    "personas_mediana": 5,
+    "personas_max": 8,
+    "personas_max_verificable": 8,
+    "imagenes_vis_mala": 2,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Generador eléctrico": 4,
+      "Mezcladora de concreto": 2,
+      "Excavadora": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 18 de febrero de 2026, las obras en la Escuela de Limoncito se centraron en la construcción de la estructura de concreto del edificio. Las actividades principales incluyeron la edificación de columnas, vigas y losas, además del encofrado, el armado de acero y el vaciado de concreto. Hacia el final del día, también se observaron preparativos para trabajos de mampostería.\n\nLa maquinaria destacada fue la grúa torre y los andamios metálicos, complementados por mezcladoras de concreto. En la tarde, también se utilizaron una excavadora y un cargador frontal. Las condiciones climáticas fueron mayormente nubladas, con un periodo de cielo parcialmente nublado.\n\nEn cuanto a la seguridad, el uso de cascos y chalecos fue parcial, aunque hubo momentos de cumplimiento total. Es importante señalar que no fue posible determinar el uso de arneses de seguridad para trabajos en altura, y las barandas de protección se observaron parcialmente o ausentes en algunas zonas. El nivel de actividad en la obra fue alto."
+  },
+  {
+    "fecha": "2026-02-19",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 4,
+    "personas_mediana": 6,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Montacargas": 3,
+      "Generador eléctrico": 3,
+      "Retroexcavadora": 1,
+      "Excavadora": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 19 de febrero de 2026, las actividades en la construcción de la Escuela de Limoncito, en Cieneguita, Limón, se centraron intensamente en la edificación de la estructura de concreto del futuro edificio. Se observó un progreso continuo en el levantamiento de columnas, vigas y losas en varios niveles, incluyendo trabajos en altura y el constante movimiento de materiales dentro de la obra.\n\nLa jornada mantuvo un alto nivel de actividad durante todo el día. La grúa torre, los montacargas y los andamios metálicos fueron la maquinaria más destacada y utilizada para estas tareas. El generador eléctrico también estuvo en funcionamiento. Las condiciones climáticas se mantuvieron nubladas a lo largo del día.\n\nEn cuanto a la seguridad, se notó un uso inconsistente de cascos y chalecos de seguridad por parte del personal. Es importante destacar que, aunque se realizaron trabajos en altura, no fue posible determinar si se utilizaban arneses de seguridad, y la presencia de barandas de protección fue variable."
+  },
+  {
+    "fecha": "2026-02-20",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 4,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 3,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Generador eléctrico": 4,
+      "Excavadora": 1,
+      "Bomba de concreto": 1,
+      "Camión de volteo": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 20 de febrero de 2026, la construcción de la Escuela de Limoncito mostró un alto nivel de actividad, enfocándose principalmente en la estructura de concreto del edificio. Las labores incluyeron el armado de varillas, encofrado y el vaciado de concreto para columnas, vigas y losas, además de la preparación del terreno en la planta baja.\n\nEntre la maquinaria destacada que operó durante el día se encontraban la grúa torre, andamios metálicos, generadores eléctricos, una bomba de concreto, camiones de volteo y un camión mixer.\n\nLas condiciones climáticas fueron mayormente nubladas, con un periodo despejado al mediodía.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos por parte del personal. Aunque se notaron algunas barandas de seguridad, no fue posible determinar consistentemente el uso de arneses para los trabajos en altura."
+  },
+  {
+    "fecha": "2026-02-23",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 3,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Excavadora": 4,
+      "Generador eléctrico": 4,
+      "Retroexcavadora": 1,
+      "Mezcladora de concreto": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 23 de febrero de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un enfoque claro en la estructura de concreto. Las actividades principales incluyeron el encofrado, la colocación y armado de varillas y acero, y el vertido de concreto para losas y columnas. También se registró movimiento de tierras en la planta baja del proyecto.\n\nLa maquinaria destacada fue la omnipresente grúa torre, fundamental para el manejo de materiales, junto con excavadoras, generadores eléctricos y andamios metálicos. El clima predominante fue mayormente nublado.\n\nRespecto a la seguridad, se observó un uso parcial de cascos y chalecos. La implementación de arneses de altura y barandas fue inconsistente o parcial, un aspecto crucial a reforzar dado el trabajo en altura. El nivel de actividad general fue medio a alto, con un equipo constante avanzando en la edificación."
+  },
+  {
+    "fecha": "2026-02-24",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 5,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Generador eléctrico": 3,
+      "Excavadora": 2,
+      "Retroexcavadora": 2,
+      "Montacargas": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 24 de febrero de 2026, las obras en la Escuela de Limoncito, Limón, se centraron intensamente en la etapa de construcción de la estructura de concreto. A lo largo del día, los equipos se dedicaron al encofrado, la colocación de acero de refuerzo y, notablemente, al vaciado de concreto para los diferentes niveles del edificio.\n\nLa maquinaria principal incluyó una grúa torre y andamios metálicos, apoyados por excavadoras, retroexcavadoras y un camión mixer para el concreto. El clima varió, comenzando nublado, despejándose al mediodía y volviendo a nublado por la tarde.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos. La presencia de arneses de altura no fue determinable en las imágenes, y las barandas de seguridad mostraron una cobertura parcial, lo cual es una observación importante dado que se realizaba trabajo en altura. Con un promedio de cinco personas trabajando activamente, el nivel de actividad general fue alto."
+  },
+  {
+    "fecha": "2026-02-25",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 4,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 3,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Excavadora": 3,
+      "Generador eléctrico": 2,
+      "Retroexcavadora": 2,
+      "Mezcladora de concreto": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 25 de febrero de 2026, la construcción de la Escuela de Limoncito mostró un nivel de actividad medio a alto, enfocándose principalmente en la estructura de concreto. Las labores principales incluyeron la preparación de encofrados y el vaciado de concreto en los niveles superiores del edificio.\n\nLa grúa torre y los andamios metálicos fueron la maquinaria más destacada y utilizada a lo largo del día, complementada por excavadoras y equipos específicos para el manejo de concreto (mezcladoras y camiones mixer).\n\nLas condiciones climáticas variaron de nubladas durante la mañana a despejadas en la tarde.\n\nEn cuanto a la seguridad, se observaron barandas parcialmente instaladas en algunas áreas de trabajo en altura, pero no fue posible determinar el uso de arneses de seguridad por parte del personal."
+  },
+  {
+    "fecha": "2026-02-26",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 2,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Retroexcavadora": 2,
+      "Montacargas": 1,
+      "Mezcladora de concreto": 1,
+      "Bomba de concreto": 1,
+      "Excavadora": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 26 de febrero de 2026, las actividades en la construcción de la Escuela de Limoncito se concentraron en la etapa de estructura de concreto. Durante la jornada, se llevó a cabo la construcción de la estructura principal, incluyendo la preparación, vertido y armado de concreto, así como el movimiento de tierras y materiales.\n\nLa maquinaria más utilizada fue la grúa torre, apoyada por retroexcavadoras, excavadoras, montacargas, andamios metálicos, una mezcladora y una bomba de concreto. El clima se mantuvo despejado durante todo el día.\n\nEn cuanto a la seguridad, se observaron oportunidades de mejora. Aunque se vieron barandas en una ocasión, en otras no estaban presentes. El uso de cascos y chalecos fue parcial o no se pudo determinar en varias imágenes, y se notó la ausencia de chaleco en un trabajador. El nivel de actividad general fue alto, con varios equipos y personal trabajando activamente en diferentes frentes."
+  },
+  {
+    "fecha": "2026-02-27",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Generador eléctrico": 3,
+      "Camión de volteo": 2,
+      "Cargador frontal": 1,
+      "Excavadora": 1,
+      "Mezcladora de concreto": 1,
+      "Retroexcavadora": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 27 de febrero de 2026, las obras en la Escuela de Limoncito se centraron en el avance de la estructura de concreto del edificio. Las actividades principales incluyeron la construcción general de la estructura, el movimiento de materiales, el encofrado y la colocación de armadura.\n\nLa grúa torre fue la maquinaria más destacada, operando a lo largo de todo el día, y fue complementada por andamios metálicos, camiones de volteo, cargadores frontales y equipos como mezcladoras de concreto y generadores eléctricos.\n\nEl clima se mantuvo despejado durante toda la jornada. En cuanto a seguridad, se observó el uso de chalecos en algunos momentos, aunque el uso de cascos no fue siempre visible. Es importante notar que las barandas de seguridad estaban ausentes o parciales en varias áreas, lo cual es una observación crítica para trabajos en altura.\n\nA pesar de que la cantidad de personal visible varió a lo largo del día, la amplitud de tareas y la maquinaria presente sugieren un nivel de actividad medio a alto, enfocado en la construcción estructural de la escuela."
+  },
+  {
+    "fecha": "2026-03-02",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 1,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 3,
+      "Excavadora": 1,
+      "Grúa móvil": 1,
+      "Cargador frontal": 1,
+      "Mezcladora de concreto": 1,
+      "Bomba de concreto": 1,
+      "Generador eléctrico": 1,
+      "Camión mezclador (mixer)": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 2 de marzo de 2026, la construcción de la Escuela de Limoncito en Limón mostró un alto nivel de actividad. El día estuvo enfocado principalmente en el levantamiento de la estructura de concreto del edificio y el montaje de la estructura metálica para la cubierta, con indicios de movimiento de tierras en una de las etapas.\n\nSe observó una variedad de maquinaria clave en operación, incluyendo grúas torre y móviles, equipos para concreto como mezcladoras, bombas y camiones mixer, además de andamios, una excavadora y un cargador frontal. El clima se mantuvo despejado y soleado durante toda la jornada, favoreciendo el progreso de las obras.\n\nEn cuanto a la seguridad, hubo inconsistencias: el uso de cascos y chalecos fue parcial o no determinable en varias ocasiones. Particularmente preocupante es que, a pesar de los trabajos en altura para la cubierta, el uso de arneses no pudo ser confirmado y las barandas de seguridad estuvieron ausentes o solo parcialmente presentes en la mayoría de las imágenes."
+  },
+  {
+    "fecha": "2026-03-03",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 4,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Camión mezclador (mixer)": 1,
+      "Generador eléctrico": 1,
+      "Cargador frontal": 1,
+      "Retroexcavadora": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 3 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito mostraron un nivel de actividad medio a alto, centrándose principalmente en dos frentes clave. Se observó un progreso significativo en la construcción de la estructura de concreto del edificio y, de manera simultánea, el montaje de la estructura metálica de la cubierta.\n\nLa maquinaria destacada incluyó una grúa torre, fundamental para el izaje de materiales, y andamios metálicos. También se vieron en operación un camión mixer, un cargador frontal y una retroexcavadora. Las condiciones climáticas fueron generalmente favorables, con cielos despejados la mayor parte del día, y periodos parcialmente nublados.\n\nEn cuanto a la seguridad, hubo observaciones mixtas. El uso de cascos y chalecos fue inconsistente (\"Parcial\" o \"No\" en algunas instancias). Para los trabajos en altura, la presencia de arneses de seguridad fue mayormente \"No determinable\", y en una ocasión se notó la ausencia de barandas, lo cual es un punto crítico a revisar para la prevención de caídas."
+  },
+  {
+    "fecha": "2026-03-04",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Camión mezclador (mixer)": 3,
+      "Generador eléctrico": 2,
+      "Excavadora": 1,
+      "Cargador frontal": 1,
+      "Retroexcavadora": 1,
+      "Montacargas": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El día 04 de marzo de 2026, la construcción de la Escuela de Limoncito mantuvo un nivel de actividad medio a alto. Las labores principales se enfocaron en la construcción de la estructura de concreto del edificio, incluyendo el vaciado de concreto en diferentes niveles, así como el montaje de la cubierta metálica. También se mencionaron trabajos de obra gris.\n\nPara estas tareas, la grúa torre fue una maquinaria destacada, presente durante toda la jornada, junto con el camión mixer para el concreto y el uso constante de andamios metálicos. Las condiciones climáticas fueron variables, comenzando nubladas, pasando a despejadas al mediodía y finalizando parcialmente nubladas.\n\nEn cuanto a la seguridad, se observaron deficiencias, ya que las barandas de seguridad se reportaron como ausentes o parciales en la mayoría de los momentos, lo cual es crítico en trabajos en altura. La utilización de cascos y chalecos también fue parcial en varias ocasiones."
+  },
+  {
+    "fecha": "2026-03-05",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Mezcladora de concreto": 5,
+      "Grúa torre": 4,
+      "Generador eléctrico": 3,
+      "Grúa móvil": 1,
+      "Montacargas": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 5 de marzo de 2026, la construcción de la Escuela de Limoncito se centró en importantes avances estructurales. Las actividades principales incluyeron la construcción y vaciado de concreto para la estructura de múltiples niveles, así como el montaje de la estructura metálica de la cubierta.\n\nPara estas labores, se observó maquinaria destacada como grúas (torre y móvil), mezcladoras de concreto y andamios metálicos. Las condiciones climáticas fueron variadas, alternando entre cielos nublados y despejados.\n\nEn cuanto a la seguridad, si bien se registró el uso de cascos y chalecos en la mayoría de los casos, su aplicación fue a veces parcial. Una observación importante es la frecuente ausencia de barandas de seguridad en las áreas de trabajo, y el uso de arneses para trabajos en altura no fue consistentemente determinable, lo cual es una preocupación dado el uso de andamios y el montaje de la cubierta.\n\nEl nivel de actividad general se consideró medio, con personal dedicado a los componentes estructurales clave del edificio."
+  },
+  {
+    "fecha": "2026-03-06",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 2,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Mezcladora de concreto": 2,
+      "Generador eléctrico": 2,
+      "Camión mezclador (mixer)": 2,
+      "Cargador frontal": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 6 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron principalmente en la construcción de la estructura de concreto y el montaje de la cubierta metálica del edificio educativo.\n\nA lo largo del día, se observó el uso constante de maquinaria destacada como la grúa torre y andamios metálicos, esenciales para los trabajos en altura, así como mezcladoras y camiones mixer para el manejo del concreto. Las condiciones climáticas variaron, comenzando nublado por la mañana y despejándose hacia la tarde.\n\nEn términos de seguridad, el uso de cascos y chalecos fue parcial o no determinable en varias imágenes. Es importante notar que se detectó la ausencia de barandas en una ocasión y su presencia parcial en otras, lo cual es crucial para la seguridad en trabajos de altura. El nivel de actividad general pareció medio a bajo, con un número limitado de personas visibles en las distintas tomas."
+  },
+  {
+    "fecha": "2026-03-09",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 2,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 3,
+      "Elevador de obra": 2,
+      "Grúa móvil": 1,
+      "Camión mezclador (mixer)": 1,
+      "Generador eléctrico": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 9 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en el avance de la estructura de concreto del edificio de varias plantas y el montaje de su cubierta metálica. Se observó maquinaria clave como grúas torre, andamios metálicos y elevadores de obra, e incluso un camión mixer, lo que sugiere trabajos de vertido o preparación de concreto.\n\nLas condiciones climáticas fueron mayormente despejadas, con algunos momentos parcialmente nublados. Respecto a la seguridad, se notó un uso parcial o no determinable de cascos y chalecos. Más preocupante, la ausencia de barandas de seguridad fue explícitamente mencionada en dos ocasiones para zonas de trabajo en altura, y el uso de arneses no pudo ser determinado. A pesar de estas observaciones, el nivel de actividad general fue de medio a alto, con el personal enfocado en las tareas estructurales y de techado de la escuela."
+  },
+  {
+    "fecha": "2026-03-10",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 5,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 1,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 2,
+      "Camión mezclador (mixer)": 2,
+      "Elevador de obra": 2,
+      "Generador eléctrico": 1,
+      "Grúa móvil": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 10 de marzo de 2026, las obras en la Escuela de Limoncito se enfocaron principalmente en la construcción de la estructura de concreto y el montaje de la cubierta metálica del edificio de varias plantas. A lo largo del día, se observó el vaciado de concreto y el movimiento de materiales, con algunas labores de mampostería.\n\nLa jornada mostró un nivel de actividad medio a alto, apoyado por maquinaria destacada como grúas (torre y móvil), camiones mixer, elevadores de obra, un cargador frontal y andamios. El clima fue mayormente despejado, con algunos periodos parcialmente nublados.\n\nEn cuanto a la seguridad, aunque se notó el uso parcial o total de cascos y chalecos, la visibilidad de arneses de altura fue limitada y la presencia de barandas de seguridad resultó inconsistente, lo cual es relevante al considerar los trabajos en altura."
+  },
+  {
+    "fecha": "2026-03-11",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 3,
+    "personas_mediana": 5,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Elevador de obra": 3,
+      "Camión mezclador (mixer)": 3,
+      "Grúa torre": 2,
+      "Retroexcavadora": 2,
+      "Mezcladora de concreto": 1,
+      "Generador eléctrico": 1,
+      "Cargador frontal": 1,
+      "Montacargas": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El día 11 de marzo de 2026, la construcción de la Escuela de Limoncito mostró un alto nivel de actividad, centrándose principalmente en la edificación de la estructura de concreto y el montaje de la cubierta metálica. Se observaron trabajos en los niveles inferiores y superiores del edificio, con constante movimiento de materiales y personal.\n\nLas actividades principales incluyeron el colado de concreto para la estructura y la instalación de los elementos de techo. La maquinaria destacada en el sitio fue la grúa torre, retroexcavadoras, camiones mixer, elevadores de obra y los omnipresentes andamios metálicos.\n\nLas condiciones climáticas fueron generalmente favorables, variando entre parcialmente nublado y despejado a lo largo del día.\n\nEn cuanto a la seguridad, se notó una preocupación importante debido a la ausencia o presencia parcial de barandas de seguridad en varias áreas, especialmente relevante dado el trabajo en alturas. El uso de arneses de seguridad no fue determinable en la mayoría de las imágenes, y el uso de cascos y chalecos fue parcial o no determinable en varias ocasiones."
+  },
+  {
+    "fecha": "2026-03-12",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 2,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 3,
+      "Elevador de obra": 2,
+      "Cargador frontal": 1,
+      "Camión mezclador (mixer)": 1,
+      "Montacargas": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 12 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en el avance de la estructura principal de concreto y el montaje de la cubierta metálica del edificio. Se observaron trabajos específicos como el levantamiento de cerchas metálicas y, en un momento, la instalación de ventanas en algunos niveles.\n\nLa maquinaria destacada incluyó la grúa torre y los andamios metálicos, fundamentales para los trabajos en altura. También se utilizaron elevadores de obra, un cargador frontal y un camión mixer para el manejo de materiales y concreto.\n\nEl clima fue predominantemente despejado a lo largo del día, con un breve período parcialmente nublado.\n\nEn cuanto a la seguridad, no fue posible determinar el uso de cascos, chalecos o arneses de altura por parte del personal. Se notó una presencia parcial o la ausencia de barandas de seguridad en varias áreas, lo cual es una observación importante dado que se realizaban trabajos en altura para la estructura y la cubierta.\n\nEl nivel de actividad general fue medio, con equipos dedicados a las tareas estructurales y de techado, respaldados por una variedad de maquinaria pesada."
+  },
+  {
+    "fecha": "2026-03-13",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 2,
+    "personas_mediana": 3,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Mezcladora de concreto": 3,
+      "Montacargas": 2,
+      "Grúa móvil": 2,
+      "Grúa torre": 1,
+      "Elevador de obra": 1,
+      "Retroexcavadora": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 13 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron principalmente en el avance de la estructura de concreto y el montaje de la cubierta metálica. Durante el día, se vio una variedad de maquinaria como grúas (torre y móvil), mezcladoras de concreto, montacargas, elevadores de obra, retroexcavadoras y camiones mixer, apoyando el movimiento de materiales y el trabajo con concreto.\n\nEl clima se mantuvo despejado a lo largo de la jornada. En cuanto a la seguridad, se observó un uso parcial de cascos y chalecos por parte del personal. Es importante señalar que se detectó la ausencia o uso parcial de barandas en algunas zonas, lo cual es relevante al considerar los trabajos en altura que se estaban realizando. La actividad general en el sitio fue de nivel medio, con un número variable de trabajadores presentes."
+  },
+  {
+    "fecha": "2026-03-16",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Retroexcavadora": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 16 de marzo de 2026, las obras en la Escuela de Limoncito, Cieneguita, se enfocaron intensamente en la construcción de la estructura principal de concreto y el montaje de la cubierta metálica. Durante la jornada, también se reportó avance en muros y divisiones internas.\n\nLa grúa torre fue la maquinaria más utilizada, apoyada por andamios metálicos y, en un momento, un elevador de obra. El día transcurrió con cielos despejados en su mayoría, tornándose parcialmente nublado hacia la tarde.\n\nEn cuanto a la seguridad, se observó a los trabajadores utilizando cascos y chalecos en algunas instancias. Sin embargo, la presencia de barandas de seguridad fue inconsistente o ausente en varias tomas, lo cual es una consideración importante dada la naturaleza de los trabajos en altura.\n\nEl nivel de actividad fue medio a alto, con un incremento notable de personal en la tarde, concentrado en el montaje de la estructura de la cubierta."
+  },
+  {
+    "fecha": "2026-03-17",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Elevador de obra": 4,
+      "Grúa torre": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 17 de marzo de 2026, las obras de construcción de la Escuela de Limoncito en Cieneguita, Limón, se centraron principalmente en la construcción de la estructura de concreto y el montaje de la cubierta metálica del edificio.\n\nSe observó un nivel de actividad constante y significativo a lo largo del día. La maquinaria destacada incluyó una grúa torre en la mañana para el montaje de la cubierta, complementada por el uso frecuente de elevadores de obra y andamios metálicos.\n\nLas condiciones climáticas fueron despejadas durante toda la jornada, lo que permitió un desarrollo favorable de las labores.\n\nEn cuanto a la seguridad, se notaron algunas observaciones importantes. Si bien se registró el uso de cascos y chalecos en la mañana, se identificó un uso parcial de arneses de altura y la ausencia de barandas en ciertas áreas, lo que sugiere la necesidad de reforzar las precauciones para los trabajos en altura."
+  },
+  {
+    "fecha": "2026-03-18",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Cubierta",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 3,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 3,
+      "Camión mezclador (mixer)": 2,
+      "Montacargas": 2,
+      "Elevador de obra": 2
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 18 de marzo de 2026, las obras en la Escuela de Limoncito mostraron un nivel de actividad medio a alto, enfocándose principalmente en la construcción de la estructura de concreto y el montaje de la cubierta metálica.\n\nSe observaron trabajos de vaciado de concreto y la instalación progresiva de la cubierta. La maquinaria destacada incluyó la grúa torre, camiones mixer, montacargas, elevadores de obra y andamios metálicos. El clima fue despejado durante todo el día, favoreciendo las labores.\n\nEn cuanto a la seguridad, se notó el uso parcial de cascos, chalecos y barandas. Sin embargo, en varias ocasiones, no fue posible determinar el cumplimiento total de las medidas, especialmente el uso de arneses para trabajos en altura. La jornada reflejó un progreso constante en etapas clave del proyecto."
+  },
+  {
+    "fecha": "2026-03-19",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 2,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Grúa móvil": 2,
+      "Cargador frontal": 2
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 19 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se centraron en el montaje de la estructura metálica de la cubierta y trabajos en la estructura de concreto del edificio. También se observaron tareas de mampostería y preparación para los cerramientos de fachada.\n\nLa grúa torre y los andamios metálicos fueron la maquinaria más destacada, complementadas por una grúa móvil y un cargador frontal. El día transcurrió con un clima predominantemente despejado, con algunos periodos parcialmente nublados.\n\nRespecto a la seguridad, a pesar de los trabajos en altura, no fue posible determinar el uso de cascos, chalecos o arneses. Se notó la presencia parcial de barandas en algunas zonas elevadas. El nivel de actividad fue medio, con personal visible durante la mañana y mediodía, indicando un progreso constante en la obra."
+  },
+  {
+    "fecha": "2026-03-20",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 2,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Cubierta",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 2,
+      "Cubierta": 3,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Montacargas": 2,
+      "Cargador frontal": 2,
+      "Mezcladora de concreto": 1,
+      "Elevador de obra": 1,
+      "Generador eléctrico": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 20 de marzo de 2026, las obras en la Escuela de Limoncito mantuvieron un nivel de actividad medio a alto. Los trabajos se enfocaron en la construcción de la estructura de concreto y el montaje de la cubierta metálica del edificio. También se observaron tareas de mampostería, manejo de materiales y preparación para vaciados de concreto, con alguna mención de trabajos internos.\n\nLa maquinaria destacada incluyó la grúa torre, andamios metálicos, montacargas y cargadores frontales. El clima fue mayormente parcialmente nublado, permitiendo el avance de las labores.\n\nEn seguridad, se notó el uso de cascos y chalecos en algunas ocasiones, pero la implementación fue inconsistente o no determinable. Las barandas de seguridad para trabajos en altura fueron parciales en varias observaciones, y el uso de arneses no pudo ser confirmado, lo que sugiere oportunidades de mejora en la protección de los trabajadores."
+  },
+  {
+    "fecha": "2026-03-23",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5,
+      "Grúa móvil": 1,
+      "Bomba de concreto": 1,
+      "Generador eléctrico": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 23 de marzo de 2026, la construcción de la Escuela de Limoncito mostró un avance variado. Las actividades principales se centraron en la edificación de la estructura, incluyendo trabajos en elementos de concreto y el montaje de la cubierta metálica. También se observaron labores de mampostería, acopio de materiales y levantamientos topográficos.\n\nLa maquinaria destacada en el sitio fue la grúa torre, que estuvo activa durante todo el día, junto con andamios metálicos y una bomba de concreto. El clima se mantuvo predominantemente despejado, con algunas nubes parciales hacia el final del día.\n\nEn cuanto a la seguridad, se notó el uso parcial de cascos y chalecos por parte de los trabajadores. Las barandas de seguridad para trabajos en altura estaban presentes solo parcialmente, y el uso de arneses no pudo ser determinado claramente. El sitio mantuvo un nivel de actividad medio, con diversas tareas progresando simultáneamente."
+  },
+  {
+    "fecha": "2026-03-24",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Mampostería",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 2,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Grúa móvil": 2,
+      "Montacargas": 2,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 24 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito mostraron un progreso constante. Los trabajos principales se concentraron en el avance de la estructura de concreto, el montaje de la cubierta metálica del edificio y el inicio de la mampostería, incluyendo la preparación y acopio de materiales.\n\nLa maquinaria más destacada en el sitio incluyó grúas torre y grúas móviles, complementadas con montacargas, un cargador frontal y andamios metálicos. Las condiciones climáticas fueron favorables, predominantemente despejadas durante la mayor parte del día, con una leve nubosidad hacia la tarde.\n\nEn cuanto a la seguridad, se observó el uso de cascos y chalecos en el personal presente, aunque de forma parcial en algunas ocasiones. Las barandas de seguridad en las áreas de trabajo fueron identificadas como parciales. Dada la naturaleza de los trabajos en altura, como el montaje de la cubierta, no fue posible determinar el uso de arneses de seguridad a partir de las imágenes. El nivel de actividad general en la obra fue medio a alto, con múltiples frentes de trabajo activos."
+  },
+  {
+    "fecha": "2026-03-25",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 4,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 1,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 5
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 25 de marzo de 2026, la construcción de la Escuela de Limoncito se centró en el avance de la estructura principal. Las actividades clave incluyeron la edificación de la estructura de concreto y el montaje de la cubierta metálica. También se observaron trabajos de mampostería y la preparación para futuros acabados, junto con el movimiento de materiales.\n\nLa maquinaria más utilizada fue la grúa torre, fundamental para las tareas de levantamiento, y los andamios metálicos. El clima se mantuvo mayormente nublado, despejándose hacia el final de la jornada. En cuanto a la seguridad, se notó la presencia parcial de barandas para trabajos en altura. Sin embargo, el uso de cascos y chalecos fue inconsistente o no determinable, y el uso de arneses de seguridad en altura no pudo ser verificado. El nivel de actividad fue medio, con el equipo concentrado en etapas cruciales del edificio."
+  },
+  {
+    "fecha": "2026-03-26",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 2,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Cubierta",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 3,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Elevador de obra": 1,
+      "Montacargas": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 26 de marzo de 2026, la construcción de la Escuela de Limoncito mostró una jornada de trabajo constante. Las actividades principales se centraron en la edificación de la estructura de concreto, el montaje de la cubierta metálica y trabajos de mampostería en los niveles inferiores. También se observó la preparación para futuros acabados y el acopio de materiales.\n\nLa maquinaria destacada incluyó la grúa torre, utilizada para el movimiento de materiales y el montaje de la cubierta, así como andamios metálicos y un elevador de obra. Durante todo el día, las condiciones climáticas fueron despejadas, lo que facilitó las labores.\n\nEn cuanto a la seguridad, se notaron deficiencias, especialmente con la ausencia total o parcial de barandas de protección en altura en varias ocasiones. El uso de cascos y chalecos reflectantes fue parcial entre el personal visible. El nivel de actividad general fue moderado a activo, con personal realizando diversas tareas a lo largo de la jornada."
+  },
+  {
+    "fecha": "2026-03-27",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 3,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Mampostería",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 2,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Elevador de obra": 3,
+      "Grúa torre": 2,
+      "Cargador frontal": 2,
+      "Montacargas": 1,
+      "Camión mezclador (mixer)": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 27 de marzo de 2026, las labores en la construcción de la Escuela de Limoncito se centraron principalmente en el avance de la estructura de concreto del edificio y la instalación de su cubierta. También se realizaron preparativos para la mampostería y el movimiento de materiales.\n\nLa maquinaria destacada incluyó una grúa torre, cargador frontal, elevadores de obra y andamios metálicos, esenciales para los trabajos en altura. El día transcurrió mayormente despejado, con un inicio nublado.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos. Sin embargo, no fue posible determinar el uso de arneses para trabajos en altura, y las barandas de seguridad estaban parcial o totalmente ausentes en varias ocasiones. El nivel de actividad general fue medio, con un pequeño equipo de trabajo (entre 1 y 4 personas) realizando diversas tareas a lo largo del día."
+  },
+  {
+    "fecha": "2026-03-30",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 3,
+    "personas_mediana": 4,
+    "personas_max": 5,
+    "personas_max_verificable": 5,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Camión de volteo": 2,
+      "Elevador de obra": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 30 de marzo de 2026, la construcción de la Escuela de Limoncito mostró un progreso constante. Las actividades principales se centraron en el avance de la estructura de concreto del edificio y el montaje de la cubierta metálica, con trabajos simultáneos en los niveles superiores y en planta baja.\n\nLa maquinaria destacada incluyó una grúa torre y andamios metálicos, esenciales para las labores en altura y el movimiento de materiales. También se observaron camiones de volteo, un elevador de obra y un cargador frontal. El clima fue mayormente despejado, con algunas horas parcialmente nubladas.\n\nEn cuanto a la seguridad, se notó un uso parcial de cascos y chalecos. Sin embargo, para los trabajos en altura, el uso de arneses no siempre fue determinable y las barandas de seguridad solo se observaron parcialmente, lo que sugiere puntos a revisar. El nivel de actividad fue medio a alto, con varios trabajadores y diversas tareas ejecutándose durante el día."
+  },
+  {
+    "fecha": "2026-03-31",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Retroexcavadora": 4,
+      "Camión mezclador (mixer)": 4,
+      "Grúa torre": 3,
+      "Elevador de obra": 2
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 31 de marzo de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron principalmente en el avance de la estructura de concreto del edificio y la instalación de la cubierta metálica. También se realizaron entregas de concreto y se observaron preparativos para futuras etapas como la mampostería y los acabados.\n\nLa maquinaria destacada en el sitio incluyó retroexcavadoras, camiones mixer, grúas torre, elevadores de obra y andamios metálicos, evidenciando un progreso robusto en las labores estructurales.\n\nLas condiciones climáticas fueron mayormente parcialmente nubladas, con un periodo nublado, lo que permitió el desarrollo continuo de los trabajos.\n\nEn cuanto a la seguridad, aunque el uso de arneses no fue determinable, se observó la ausencia de barandas de seguridad en algunas áreas con trabajos en altura, lo cual es un punto importante a considerar.\n\nEl nivel de actividad en el proyecto fue de medio a alto, con maquinaria pesada en operación y personal involucrado en diversas tareas a lo largo del día."
+  },
+  {
+    "fecha": "2026-04-01",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 1,
+    "personas_max_verificable": 1,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Camión mezclador (mixer)": 5,
+      "Retroexcavadora": 4,
+      "Grúa torre": 4,
+      "Elevador de obra": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 1 de abril de 2026, la construcción de la Escuela de Limoncito se centró intensamente en la estructura de concreto y el montaje de la cubierta metálica. Las actividades principales incluyeron el vaciado y manejo de concreto, así como la constante movilización de materiales por todo el sitio.\n\nLa maquinaria más destacada en operación fueron los camiones mixer, retroexcavadoras y grúas torre, fundamentales para el levantamiento de elementos y el transporte de insumos. También se observó el uso de andamios metálicos.\n\nLas condiciones climáticas fueron predominantemente nubladas, con algunos momentos de cielo despejado o parcialmente nublado.\n\nRespecto a la seguridad, aunque el uso de equipos como cascos y chalecos no siempre fue claro, se observó la ausencia de barandas en varias ocasiones, un punto importante para la seguridad en trabajos de altura.\n\nDada la operación continua de maquinaria pesada y la naturaleza de las tareas estructurales, el día reflejó un nivel de actividad medio a alto en la obra."
+  },
+  {
+    "fecha": "2026-04-02",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 0,
+    "personas_max_verificable": 0,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Camión mezclador (mixer)": 5,
+      "Grúa torre": 3,
+      "Elevador de obra": 2,
+      "Retroexcavadora": 2
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 02 de abril de 2026, la construcción de la Escuela de Limoncito mostró un alto nivel de actividad. Se avanzó significativamente en la estructura de concreto y el montaje de la cubierta metálica del edificio, con posible inicio de trabajos de mampostería.\n\nMaquinaria clave como camiones mixer, grúas torre, retroexcavadoras, elevadores de obra y andamios metálicos estuvo en uso constante. El día transcurrió bajo un clima parcialmente nublado.\n\nRespecto a la seguridad, las imágenes no permitieron determinar el uso de equipos de protección personal (cascos, chalecos) ni la presencia de arneses o barandas de seguridad, elementos importantes para los trabajos en altura y con andamios. Cabe mencionar que no se observaron personas en ninguna de las fotografías tomadas ese día."
+  },
+  {
+    "fecha": "2026-04-03",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 2,
+    "personas_max_verificable": 2,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Camión mezclador (mixer)": 5,
+      "Grúa torre": 4,
+      "Retroexcavadora": 2,
+      "Cargador frontal": 1,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 3 de abril de 2026, la construcción de la Escuela de Limoncito mostró un día de actividad significativa. El enfoque principal fue el avance de la estructura de concreto y el montaje de la cubierta metálica del edificio, incluyendo posibles vaciados de concreto y manejo de materiales.\n\nLa maquinaria destacada que se observó operando durante el día incluyó camiones mixer, grúas torre y andamios metálicos, complementados ocasionalmente por retroexcavadoras, cargadores frontales y elevadores de obra.\n\nLas condiciones climáticas variaron desde parcialmente nublado hasta nublado y despejado, permitiendo el desarrollo de las tareas sin interrupciones mayores.\n\nEn cuanto a la seguridad, se notó la presencia de andamios para trabajos en altura. Sin embargo, en varias observaciones, las barandas de seguridad se reportaron como parciales o ausentes, y el uso de arneses de altura no fue determinable o no aplicaba según las imágenes, lo cual es un punto a considerar para la protección de los trabajadores.\n\nA pesar de que pocas personas fueron visibles en las imágenes, la constante presencia y operación de maquinaria pesada sugiere un nivel de actividad medio a alto en el sitio."
+  },
+  {
+    "fecha": "2026-04-06",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 2,
+    "personas_max_verificable": 2,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 1,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Excavadora": 1,
+      "Elevador de obra": 1,
+      "Cargador frontal": 1,
+      "Retroexcavadora": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 6 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un día con un nivel de actividad medio. Los trabajos se enfocaron principalmente en la edificación de la estructura de concreto del edificio y el montaje de la cubierta metálica, con algunas preparaciones para futuras labores de mampostería.\n\nLa maquinaria más destacada incluyó la grúa torre y los andamios metálicos, esenciales para las tareas en altura, complementadas ocasionalmente con una excavadora, un elevador de obra y un cargador frontal. El clima se mantuvo mayormente despejado a lo largo del día, con un breve periodo nublado.\n\nRespecto a la seguridad, si bien se observó el uso de un chaleco en una ocasión, las barandas de protección en zonas elevadas fueron parciales en la mayoría de las tomas y ausentes en una, y no fue posible determinar el uso de arneses de seguridad, aspectos importantes a considerar para los trabajos en altura."
+  },
+  {
+    "fecha": "2026-04-07",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 2,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 3,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 0,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 3,
+      "Retroexcavadora": 2,
+      "Elevador de obra": 1,
+      "Excavadora": 1,
+      "Grúa móvil": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 7 de abril de 2026, las obras en la Escuela de Limoncito mostraron un nivel de actividad medio a alto, concentrándose en la construcción de la estructura principal de concreto y el montaje de la cubierta del edificio. También se observó trabajo en muros de concreto y mampostería.\n\nLa maquinaria destacada incluyó grúas torre, retroexcavadoras, excavadoras, elevadores de obra y andamios metálicos, indicando un progreso significativo en la etapa estructural. El clima fue variable, comenzando nublado, despejándose a mediodía y volviendo a nublarse por la tarde.\n\nEn cuanto a la seguridad, hubo observaciones de uso parcial o no determinable de cascos y chalecos. Un aspecto crítico fue la presencia de barandas de seguridad parciales o ausentes en varias tomas, lo que sugiere posibles riesgos en trabajos en altura durante la construcción de la estructura."
+  },
+  {
+    "fecha": "2026-04-08",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 3,
+    "personas_max": 8,
+    "personas_max_verificable": 8,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 4,
+      "Montacargas": 2,
+      "Generador eléctrico": 1,
+      "Camión de volteo": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 8 de abril de 2026, las actividades en la construcción de la Escuela de Limoncito se enfocaron en el avance de la estructura principal de concreto y el montaje de la cubierta metálica. También se observaron trabajos de mampostería en los niveles inferiores y un constante movimiento de materiales.\n\nLa maquinaria destacada en operación incluyó la grúa torre para elevación, montacargas para transporte y andamios metálicos. El clima del día fue variable, alternando entre parcialmente nublado, despejado y nublado, lo cual fue generalmente favorable para las labores.\n\nEl nivel de actividad fue medio a alto, con un número significativo de personal trabajando en diferentes frentes durante la mañana. En cuanto a seguridad, se notó una inconsistencia en el uso de cascos y chalecos. Adicionalmente, preocupa la seguridad en trabajos en altura, ya que el uso de arneses no fue determinable y las barandas de seguridad fueron parciales o inexistentes en varias zonas."
+  },
+  {
+    "fecha": "2026-04-09",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": false,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 5,
+      "Mampostería": 2,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Retroexcavadora": 2,
+      "Elevador de obra": 2,
+      "Grúa móvil": 2,
+      "Grúa torre": 2,
+      "Camión de volteo": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 9 de abril de 2026, las labores en la construcción de la Escuela de Limoncito se centraron en el avance de la estructura principal del edificio, incluyendo elementos de concreto, trabajos de mampostería y el montaje de la cubierta metálica. También se observaron preparaciones para los cerramientos.\n\nDurante el día, se utilizaron maquinarias destacadas como grúas (móvil y torre), retroexcavadoras, elevadores de obra y andamios metálicos. El clima fue predominantemente nublado a parcialmente nublado, despejándose hacia el final de la jornada.\n\nEl nivel de actividad fue medio a alto, con personal realizando diversas tareas. En cuanto a seguridad, se notó un uso parcial o inconsistente de cascos y chalecos. Es de especial preocupación la presencia parcial o la ausencia de barandas, lo cual representa un riesgo potencial en los trabajos de estructura y cubierta, que a menudo implican alturas."
+  },
+  {
+    "fecha": "2026-04-10",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 1,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 1,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa torre": 2,
+      "Grúa móvil": 2,
+      "Elevador de obra": 1
+    },
+    "grua_torre": true,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Parcialmente nublado",
+    "resumen_ia": "El 10 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un nivel de actividad medio a alto. Los trabajos se centraron en la construcción de la estructura principal de concreto, el levantamiento de mampostería y el montaje de la cubierta metálica.\n\nMaquinaria destacada como grúas torre, grúas móviles y elevadores de obra estuvo en uso, apoyando las tareas en altura y el movimiento de materiales. El clima fue variado, comenzando parcialmente nublado o nublado por la mañana y despejándose hacia la tarde.\n\nEn cuanto a la seguridad, se observó un uso parcial o inconsistente de cascos y chalecos. Una preocupación notable fue la escasa presencia de barandas de seguridad, especialmente considerando los trabajos en la estructura y cubierta. El uso de arneses de altura, crucial para estas tareas, no siempre fue determinable."
+  },
+  {
+    "fecha": "2026-04-13",
+    "dia_semana": 0,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 3,
+    "personas_max": 6,
+    "personas_max_verificable": 6,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Cubierta",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 3,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Camión de volteo": 2,
+      "Grúa móvil": 1,
+      "Retroexcavadora": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 13 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un nivel de actividad medio a alto. Los trabajos se enfocaron principalmente en el avance de la estructura de concreto y la instalación y montaje de la cubierta metálica, incluyendo elementos estructurales y muros. También se realizaron tareas de descarga y manejo de materiales, así como labores en los niveles interiores del edificio.\n\nSe utilizó una variedad de maquinaria, destacando la presencia frecuente de andamios metálicos, camiones de volteo, una grúa móvil, una retroexcavadora y un cargador frontal. El clima durante la jornada fue mayormente despejado, con algunos periodos parcialmente nublados.\n\nEn relación con la seguridad, se observó una aplicación inconsistente de cascos y chalecos. Dada la recurrencia de trabajos en altura para la cubierta y con andamios, es una preocupación importante que el uso de arneses de seguridad fuera a menudo \"no determinable\" y que las barandas de protección estuvieran parcial o completamente ausentes en algunas zonas."
+  },
+  {
+    "fecha": "2026-04-14",
+    "dia_semana": 1,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 1,
+    "personas_mediana": 2,
+    "personas_max": 3,
+    "personas_max_verificable": 3,
+    "imagenes_vis_mala": 0,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Generador eléctrico": 4,
+      "Grúa móvil": 2,
+      "Cargador frontal": 2
+    },
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Moderado",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 14 de abril de 2026, las obras en la Escuela de Limoncito mostraron un nivel de actividad medio bajo un clima completamente despejado. Las tareas principales se concentraron en la construcción de la estructura principal de concreto y el montaje de la cubierta metálica. También se observaron preparativos para la mampostería, cerramientos y acabados, así como trabajos interiores en los diferentes niveles del edificio y el movimiento constante de materiales.\n\nLa maquinaria destacada incluyó andamios metálicos, generadores eléctricos, grúas móviles y cargadores frontales. Respecto a la seguridad, se notó un uso parcial o no determinable de cascos y chalecos. Es importante mencionar que se observó la ausencia de barandas de seguridad en varias zonas de trabajo, lo cual es una preocupación, especialmente durante las labores en altura como la instalación de la cubierta."
+  },
+  {
+    "fecha": "2026-04-15",
+    "dia_semana": 2,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 0,
+    "personas_max": 4,
+    "personas_max_verificable": 4,
+    "imagenes_vis_mala": 2,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 4,
+      "Mampostería": 1,
+      "Cubierta": 2,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa móvil": 2,
+      "Elevador de obra": 1,
+      "Montacargas": 1,
+      "Retroexcavadora": 1
+    },
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 15 de abril de 2026, las actividades en la construcción de la Escuela de Limoncito mostraron un nivel de actividad medio a alto. Los esfuerzos se concentraron principalmente en la construcción de la estructura de concreto del edificio y en la instalación de la cubierta, incluyendo el montaje de su estructura metálica. Además, se realizaron preparativos para los próximos trabajos de mampostería.\n\nPara estas labores, se hizo uso de maquinaria significativa como grúas móviles, montacargas, un elevador de obra y una retroexcavadora, complementados con andamios metálicos. Las condiciones climáticas a lo largo del día fueron mayormente despejadas.\n\nEn cuanto a la seguridad, se observó un uso parcial de cascos y chalecos por parte del personal. La presencia de barandas de seguridad era parcial en las áreas de trabajo, lo cual es un punto importante a considerar dadas las actividades en diferentes niveles."
+  },
+  {
+    "fecha": "2026-04-16",
+    "dia_semana": 3,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 4,
+    "personas_max": 7,
+    "personas_max_verificable": 7,
+    "imagenes_vis_mala": 1,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Mampostería",
+      "Cubierta"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 1,
+      "Cubierta": 1,
+      "Acabados interiores": 0
+    },
+    "maquinaria": {
+      "Grúa móvil": 4,
+      "Elevador de obra": 1,
+      "Cargador frontal": 1
+    },
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Nublado",
+    "resumen_ia": "El 16 de abril de 2026, la construcción de la Escuela de Limoncito en Cieneguita mostró un nivel de actividad medio a alto. Las labores principales se enfocaron en el montaje de la estructura metálica de la cubierta y la construcción de la estructura principal de concreto del edificio de varios niveles. También se realizaron trabajos de mampostería y movimiento de materiales en el patio central.\n\nLa grúa móvil fue la maquinaria más destacada, utilizada constantemente para las tareas de montaje, acompañada de andamios metálicos, un elevador de obra y un cargador frontal.\n\nEl clima del día fue variable, comenzando despejado, pasando a nublado al mediodía y volviendo a despejarse por la tarde.\n\nEn cuanto a la seguridad, se observó el uso de cascos y chalecos, aunque en algunas ocasiones de forma parcial. Es crucial señalar que en trabajos en altura no se determinó el uso de arneses y se notó la ausencia de barandas, lo que representa un área de mejora en las medidas de seguridad."
+  },
+  {
+    "fecha": "2026-04-17",
+    "dia_semana": 4,
+    "imagenes": 5,
+    "analizables": 5,
+    "personas_min": 0,
+    "personas_mediana": 3,
+    "personas_max": 8,
+    "personas_max_verificable": 8,
+    "imagenes_vis_mala": 3,
+    "imagenes_etapa_nd": 0,
+    "etapa_dominante": "Estructura de concreto",
+    "etapas_distintas": [
+      "Estructura de concreto",
+      "Cubierta",
+      "Acabados interiores"
+    ],
+    "contradiccion_etapa": true,
+    "presencia_etapas": {
+      "Movimiento de tierras": 0,
+      "Estructura de concreto": 3,
+      "Mampostería": 0,
+      "Cubierta": 1,
+      "Acabados interiores": 1
+    },
+    "maquinaria": {
+      "Montacargas": 1
+    },
+    "grua_torre": false,
+    "con_actividad": true,
+    "riesgo_max": "Bajo",
+    "clima_dominante": "Despejado",
+    "resumen_ia": "El 17 de abril de 2026, las actividades en la construcción de la Escuela de Limoncito reflejaron un nivel de progreso medio a alto. Durante la jornada, se observaron avances significativos en varias frentes. Las labores principales incluyeron el montaje de la estructura y cubierta metálica del edificio, así como trabajos de mampostería. Adicionalmente, se destacó la actividad en los acabados interiores, con un número considerable de personal involucrado. Para apoyar estas tareas, la maquinaria principal fue el montacargas para el manejo de materiales y los andamios metálicos. El clima fue predominantemente despejado, aunque con un inicio nublado. Respecto a la seguridad, se notó el uso parcial de cascos y chalecos, y la presencia parcial de barandas en áreas de altura; sin embargo, el uso de arneses no pudo ser determinado."
+  }
+]

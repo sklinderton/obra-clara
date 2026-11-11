@@ -1,0 +1,185 @@
+{
+  "fecha": "20260126",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260126-081148.jpg",
+      "fecha_hora": "26/01/2026 08:11:48",
+      "maquinaria": [
+        "Andamios metalicos"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La baja nitidez de la imagen impide determinar el uso de EPP. No se observa trabajo en altura ni losas elevadas."
+      },
+      "actividad_desarrollada": "Construccion de estructura de concreto",
+      "condiciones_climaticas": {
+        "clima_general": "Parcialmente nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Aumentar la iluminacion artificial y proceder con precaucion en las operaciones."
+        ]
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja calidad de la imagen impide identificar cualquier elemento relacionado con la accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260126-085326.jpg",
+      "fecha_hora": "26/01/2026 08:53:26",
+      "maquinaria": [],
+      "personas_trabajadoras": 2,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La visibilidad extremadamente baja impide la identificación clara de EPP. Se observan dos figuras con vestimenta de trabajo, pero no se puede confirmar el uso de elementos de seguridad específicos."
+      },
+      "actividad_desarrollada": "Estructura de concreto",
+      "condiciones_climaticas": {
+        "clima_general": "Despejado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad por bruma o baja calidad de imagen"
+        ],
+        "recomendaciones": [
+          "Se recomienda mejorar la iluminación o visibilidad en el sitio y extremar precauciones debido a la visibilidad reducida."
+        ]
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Estructura de edificio en construcción"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja calidad de la imagen y el enfoque en la construcción impiden la evaluación de elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260126-124233.jpg",
+      "fecha_hora": "26/01/2026 12:42:33",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La extrema borrosidad y baja visibilidad de la imagen impiden identificar trabajadores o evaluar el uso de EPP."
+      },
+      "actividad_desarrollada": "No determinable",
+      "condiciones_climaticas": {
+        "clima_general": "Parcialmente nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Mejorar iluminacion o esperar condiciones de visibilidad adecuadas para trabajos."
+        ]
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja calidad y visibilidad de la imagen impiden evaluar cualquier elemento de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260126-132411.jpg",
+      "fecha_hora": "26/01/2026 13:24:11",
+      "maquinaria": [],
+      "personas_trabajadoras": 3,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "No determinable",
+        "observaciones": "La extrema borrosidad de la imagen impide la identificación clara de EPP y la presencia de barandas perimetrales. Se observan siluetas de trabajadores en una estructura elevada."
+      },
+      "actividad_desarrollada": "Trabajos de estructura de concreto, posiblemente colocación de acero de refuerzo o encofrado.",
+      "condiciones_climaticas": {
+        "clima_general": "Parcialmente nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Acero de refuerzo",
+        "Encofrado"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La baja nitidez y el enfoque de la imagen impiden la identificación de elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260126-152908.jpg",
+      "fecha_hora": "26/01/2026 15:29:08",
+      "maquinaria": [],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No aplica",
+        "observaciones": "La visibilidad extremadamente baja impide determinar la presencia de trabajadores o el uso de EPP."
+      },
+      "actividad_desarrollada": "",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad"
+        ],
+        "recomendaciones": [
+          "Mejorar iluminacion",
+          "Procedimientos de seguridad para baja visibilidad"
+        ]
+      },
+      "etapa_constructiva": "",
+      "elementos_constructivos": [],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La imagen no permite identificar elementos de accesibilidad universal debido a la baja visibilidad."
+      }
+    }
+  ]
+}

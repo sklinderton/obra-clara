@@ -1,0 +1,31 @@
+{
+  "fecha": "20260210",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260210-075130.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "10/02/2026 07:51:30"
+    },
+    {
+      "nombre_imagen": "20260210-114024.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "10/02/2026 11:40:24"
+    },
+    {
+      "nombre_imagen": "20260210-120114.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "10/02/2026 12:01:14"
+    },
+    {
+      "nombre_imagen": "20260210-140608.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "10/02/2026 14:06:08"
+    },
+    {
+      "nombre_imagen": "20260210-155013.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "10/02/2026 15:50:13"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "fecha": "20260211",
+  "total": 5,
+  "images": [
+    {
+      "nombre_imagen": "20260211-070241.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "11/02/2026 07:02:41"
+    },
+    {
+      "nombre_imagen": "20260211-115404.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "11/02/2026 11:54:04"
+    },
+    {
+      "nombre_imagen": "20260211-122418.jpg",
+      "error": "Imagen no analizable",
+      "fecha_hora": "11/02/2026 12:24:18"
+    },
+    {
+      "nombre_imagen": "20260211-123201.jpg",
+      "fecha_hora": "11/02/2026 12:32:01",
+      "maquinaria": [
+        "Grua torre"
+      ],
+      "personas_trabajadoras": 0,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No aplica",
+        "barandas_perimetrales": "No",
+        "observaciones": "Se observan capuchones de seguridad en varillas expuestas. Mallas de seguridad naranjas están instaladas alrededor de la estructura de rebar, ofreciendo una barrera parcial."
+      },
+      "actividad_desarrollada": "Construcción de estructura de concreto, incluyendo muros y preparación de losas con varillas de refuerzo.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Regular"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Bajo",
+        "factores_riesgo": [],
+        "recomendaciones": []
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Muros de concreto",
+        "Varillas de refuerzo",
+        "Losa",
+        "Capuchones de seguridad",
+        "Mallas de seguridad"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La etapa actual de la obra (estructura de concreto) no permite la identificación de elementos de accesibilidad universal."
+      }
+    },
+    {
+      "nombre_imagen": "20260211-154207.jpg",
+      "fecha_hora": "11/02/2026 15:42:07",
+      "maquinaria": [
+        "Grua torre",
+        "Retroexcavadora"
+      ],
+      "personas_trabajadoras": 5,
+      "seguridad_laboral": {
+        "uso_casco": "No determinable",
+        "uso_chaleco": "No determinable",
+        "uso_arnes_altura": "No determinable",
+        "barandas_perimetrales": "Parcial",
+        "observaciones": "La baja calidad de la imagen impide verificar el uso de EPP individual. Se observan barreras de seguridad parciales en algunos niveles de la estructura."
+      },
+      "actividad_desarrollada": "Construcción de la estructura de concreto de un edificio, incluyendo encofrado, colocación de armadura y vertido de concreto.",
+      "condiciones_climaticas": {
+        "clima_general": "Nublado",
+        "visibilidad": "Mala"
+      },
+      "riesgos_climaticos": {
+        "nivel_riesgo": "Moderado",
+        "factores_riesgo": [
+          "Baja visibilidad",
+          "Superficies resbaladizas por barro"
+        ],
+        "recomendaciones": [
+          "Mejorar iluminación en el sitio",
+          "Precaución en el manejo de maquinaria y tránsito peatonal"
+        ]
+      },
+      "etapa_constructiva": "Estructura de concreto",
+      "elementos_constructivos": [
+        "Columnas de concreto",
+        "Vigas de concreto",
+        "Losas de concreto",
+        "Encofrados",
+        "Armadura de acero",
+        "Muros de concreto"
+      ],
+      "accesibilidad_universal": {
+        "elementos_detectados": [],
+        "elementos_faltantes": [
+          "Rampas de acceso",
+          "Ascensores",
+          "Señalización táctil",
+          "Baños accesibles"
+        ],
+        "cumplimiento_estimado": 0,
+        "observaciones": "La obra se encuentra en una etapa temprana de construcción (estructura), por lo que no se observan elementos de accesibilidad universal implementados."
+      }
+    }
+  ]
+}

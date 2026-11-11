@@ -1,0 +1,131 @@
+{
+  "generado": "2026-11-11T16:22:31-06:00",
+  "fecha_corte": "2026-11-11",
+  "obras": [
+    {
+      "id": "limoncito",
+      "nombre": "Escuela de Limoncito",
+      "nombre_alterno": "dIAra - Colegio de Limoncito (Cieneguita, Limon)",
+      "que_es": "Construcción de un centro educativo",
+      "ubicacion": "Cieneguita, Limón",
+      "lat": null,
+      "lon": null,
+      "coordenadas_aprox": true,
+      "ejecutor": null,
+      "fuentes": [
+        "dIAra (CGR)"
+      ],
+      "evidencia_desde": "2026-01-01",
+      "evidencia_hasta": "2026-04-17",
+      "dias_con_imagenes": 77,
+      "imagenes": 385,
+      "plan_oficial": null,
+      "url_origen": "https://www.obrapublica.info/limoncito"
+    },
+    {
+      "id": "taras-la-lima",
+      "nombre": "Intercambios de Taras y La Lima",
+      "nombre_alterno": "Taras-La Lima (obrapublica.info)",
+      "que_es": "Dos intercambios viales y ampliación a 3 carriles por sentido en la Ruta 2",
+      "ubicacion": "San Nicolás, Cartago",
+      "lat": 9.868798734157592,
+      "lon": -83.94424806124493,
+      "coordenadas_aprox": false,
+      "ejecutor": "Ministerio de Obras Públicas y Transportes (MOPT)",
+      "fuentes": [
+        "dIAra (CGR)",
+        "MapaInversiones (MIDEPLAN)"
+      ],
+      "evidencia_desde": "2024-06-25",
+      "evidencia_hasta": "2024-07-01",
+      "dias_con_imagenes": 5,
+      "imagenes": 1551,
+      "plan_oficial": {
+        "costo_millones_crc": 39335.0,
+        "fase_actual": "En ejecución",
+        "ejecucion_inicio": "2020-12-02",
+        "ejecucion_fin_previsto": "2025-02-28",
+        "avance_fisico": 54.0,
+        "avance_fisico_encabezado": 54.4,
+        "avance_financiero": 55.02,
+        "fecha_corte_avance": null
+      },
+      "url_origen": "https://www.obrapublica.info/taras-lima"
+    },
+    {
+      "id": "puente-circunvalacion",
+      "nombre": "Puente Circunvalación",
+      "nombre_alterno": null,
+      "que_es": "Evaluación de riesgos de inundación y monitoreo de construcción",
+      "ubicacion": "San José (ubicación exacta no publicada)",
+      "lat": 9.916023,
+      "lon": -84.067575,
+      "coordenadas_aprox": true,
+      "ejecutor": null,
+      "fuentes": [
+        "dIAra (CGR)"
+      ],
+      "evidencia_desde": null,
+      "evidencia_hasta": null,
+      "dias_con_imagenes": 0,
+      "imagenes": 0,
+      "plan_oficial": null,
+      "url_origen": "https://www.obrapublica.info/map?city=San%20Jos%C3%A9%2C%20Costa%20Rica"
+    }
+  ],
+  "cruces": [
+    {
+      "obra": "limoncito",
+      "proyectos_revisados": 68,
+      "fuente_campo": "obrapublica.info/limoncito",
+      "metodo": "Búsqueda de 'Limoncito' o 'Cieneguita' en los 68 proyectos del cantón Limón (701)",
+      "candidatos": [
+        {
+          "id": 339,
+          "nombre": "CANALIZACIÓN Y CONTROL DE INUNDACIONES EN EL RÍO LIMONCITO EN LIMÓN - SENARA"
+        }
+      ],
+      "decision": "Sin cruce",
+      "confianza": "—",
+      "justificacion": "El único resultado es la canalización del río Limoncito (SENARA), que es otra obra. La escuela no aparece en MapaInversiones, así que no hay plazo ni monto oficial con qué comparar."
+    },
+    {
+      "obra": "taras-la-lima",
+      "proyectos_revisados": 33,
+      "fuente_campo": "obrapublica.info/taras-lima",
+      "metodo": "Búsqueda de 'Taras' o 'La Lima' en los 33 proyectos del cantón Cartago (301) y verificación de ubicación",
+      "candidatos": [
+        {
+          "id": 18394,
+          "nombre": "CONSTRUCCIÓN DE LOS INTERCAMBIOS VIALES EN LA LIMA Y TARAS, Y AMPLIACIÓN Y MEJORAMIENTO DE LA SECCIÓN ENTRE LOS INTERCAMBIOS, RUTA NACIONAL N°2, CARTAGO, MOPT"
+        },
+        {
+          "id": 22915,
+          "nombre": "CONSTRUCCIÓN DEL EJE CICLISTA SECTOR TARAS - LA LIMA, SAN NICOLÁS, CARTAGO."
+        }
+      ],
+      "decision": "Cruce con 18394",
+      "confianza": "Alta",
+      "justificacion": "El nombre coincide (intercambios de La Lima y Taras), el distrito es San Nicolás de Cartago y las coordenadas de dIAra corresponden a La Lima, Taras, San Nicolás (verificado con OpenStreetMap). Se descarta 22915 (eje ciclista, otra obra)."
+    },
+    {
+      "obra": "puente-circunvalacion",
+      "proyectos_revisados": 164,
+      "fuente_campo": "obrapublica.info/map (San José)",
+      "metodo": "Búsqueda de 'Circunvalación' en los 164 proyectos del cantón San José (101)",
+      "candidatos": [
+        {
+          "id": 23508,
+          "nombre": "CONSTRUCCIÓN DE PASO A DESNIVEL VEHICULAR Y PUENTE PEATONAL SOBRE LA RUTA NACIONAL NO. 39 (CIRCUNVALACIÓN), ENTRE HATILLO 7 Y HATILLO 8, POR PARTE DEL CONAVI"
+        },
+        {
+          "id": 1317,
+          "nombre": "ESTUDIOS, DISEÑOS Y CONSTRUCCIÓN DE LA RUTA NACIONAL 39 (CIRCUNVALACIÓN NORTE), SECCIÓN URUCA (RUTA NACIONAL 108)-CALLE BLANCOS (ENT. RUTA NACIONAL Nº 109)"
+        }
+      ],
+      "decision": "Sin cruce",
+      "confianza": "Baja",
+      "justificacion": "Hay dos candidatos sobre la Ruta 39, pero la ficha de dIAra solo dice 'Puente Circunvalación', sus coordenadas son las mismas que usa el mapa por defecto y no publica datos. No se asume el cruce."
+    }
+  ]
+}
