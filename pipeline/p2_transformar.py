@@ -192,7 +192,7 @@ def transformar_limoncito() -> None:
                 "n_maquinaria", "maquinaria", "estructuras_temporales", "etapas", "etapa_principal", "actividad",
                 "clima", "visibilidad", "riesgo", "casco", "chaleco", "arnes", "barandas", "accesibilidad_pct", "error"]
     with open(PROCESADOS / "limoncito_imagenes.csv", "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=columnas, extrasaction="ignore")
+        w = csv.DictWriter(fh, fieldnames=columnas, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         for fl in filas:
             w.writerow({k: ("; ".join(v) if isinstance(v, list) else v) for k, v in fl.items()})

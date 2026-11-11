@@ -1,6 +1,6 @@
 # Registro de procedencia de los datos
 
-_Generado automáticamente por `pipeline/p3_integrar.py` el 2026-11-11T22:32:44+00:00. No editar a mano._
+_Generado automáticamente por `pipeline/p3_integrar.py` el 2026-11-11T16:33:16-06:00. No editar a mano._
 
 ## 1. Fuentes
 
