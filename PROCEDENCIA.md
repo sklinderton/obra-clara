@@ -1,6 +1,6 @@
 # Registro de procedencia de los datos
 
-_Generado automáticamente por `pipeline/p3_integrar.py` el 2026-11-11T16:22:31-06:00. No editar a mano._
+_Generado automáticamente por `pipeline/p3_integrar.py` el 2026-11-11T22:32:44+00:00. No editar a mano._
 
 ## 1. Fuentes
 
@@ -13,18 +13,18 @@ Cada archivo crudo tiene URL, fecha y hora de descarga, estado HTTP, tamaño y h
 
 | Archivo | URL | Descargado | SHA-256 (12) |
 |---|---|---|---|
-| `obrapublica/limoncito/manifest.json` | https://www.obrapublica.info/static/limoncito/data/json/manifest.json | 2026-11-11T16:06:38-06:00 | `889d8f3e4d7a` |
-| `obrapublica/limoncito/resumenes/20260101.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260101.txt | 2026-11-11T16:06:39-06:00 | `e7dd8f598453` |
-| `obrapublica/limoncito/resumenes/20260102.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260102.txt | 2026-11-11T16:06:40-06:00 | `03e5b573b06c` |
-| `obrapublica/limoncito/resumenes/20260105.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260105.txt | 2026-11-11T16:06:42-06:00 | `94139ddbae02` |
-| `obrapublica/limoncito/resumenes/20260106.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260106.txt | 2026-11-11T16:06:43-06:00 | `b56eceedbb15` |
-| `obrapublica/limoncito/resumenes/20260107.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260107.txt | 2026-11-11T16:06:44-06:00 | `8edfd4279a40` |
-| `obrapublica/limoncito/resumenes/20260108.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260108.txt | 2026-11-11T16:06:45-06:00 | `e3138fabe390` |
-| `obrapublica/limoncito/resumenes/20260109.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260109.txt | 2026-11-11T16:06:47-06:00 | `3ee3a2a42c2b` |
-| `obrapublica/limoncito/dias/20260112.json` | https://www.obrapublica.info/static/limoncito/data/json/20260112/index.json | 2026-11-11T16:06:47-06:00 | `1081db305021` |
-| `obrapublica/limoncito/resumenes/20260112.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260112.txt | 2026-11-11T16:06:48-06:00 | `98cff7ec6715` |
-| `obrapublica/limoncito/dias/20260113.json` | https://www.obrapublica.info/static/limoncito/data/json/20260113/index.json | 2026-11-11T16:06:48-06:00 | `bec75044061c` |
-| `obrapublica/limoncito/resumenes/20260113.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260113.txt | 2026-11-11T16:06:49-06:00 | `2494c43addbd` |
+| `obrapublica/limoncito/manifest.json` | https://www.obrapublica.info/static/limoncito/data/json/manifest.json | 2026-11-11T22:30:23+00:00 | `889d8f3e4d7a` |
+| `obrapublica/limoncito/resumenes/20260101.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260101.txt | 2026-11-11T22:30:24+00:00 | `e7dd8f598453` |
+| `obrapublica/limoncito/resumenes/20260102.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260102.txt | 2026-11-11T22:30:25+00:00 | `03e5b573b06c` |
+| `obrapublica/limoncito/resumenes/20260105.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260105.txt | 2026-11-11T22:30:26+00:00 | `94139ddbae02` |
+| `obrapublica/limoncito/resumenes/20260106.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260106.txt | 2026-11-11T22:30:27+00:00 | `b56eceedbb15` |
+| `obrapublica/limoncito/resumenes/20260107.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260107.txt | 2026-11-11T22:30:28+00:00 | `8edfd4279a40` |
+| `obrapublica/limoncito/resumenes/20260108.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260108.txt | 2026-11-11T22:30:29+00:00 | `e3138fabe390` |
+| `obrapublica/limoncito/resumenes/20260109.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260109.txt | 2026-11-11T22:30:30+00:00 | `3ee3a2a42c2b` |
+| `obrapublica/limoncito/dias/20260112.json` | https://www.obrapublica.info/static/limoncito/data/json/20260112/index.json | 2026-11-11T22:30:30+00:00 | `1081db305021` |
+| `obrapublica/limoncito/resumenes/20260112.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260112.txt | 2026-11-11T22:30:30+00:00 | `98cff7ec6715` |
+| `obrapublica/limoncito/dias/20260113.json` | https://www.obrapublica.info/static/limoncito/data/json/20260113/index.json | 2026-11-11T22:30:31+00:00 | `bec75044061c` |
+| `obrapublica/limoncito/resumenes/20260113.txt` | https://www.obrapublica.info/static/limoncito/data/resumenes/20260113.txt | 2026-11-11T22:30:31+00:00 | `2494c43addbd` |
 
 ## 2. Bitácora de limpieza y transformación
 
